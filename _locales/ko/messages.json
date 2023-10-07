@@ -1,0 +1,77 @@
+{
+    "i18n_manifest_name": {
+        "message": "미꾸라지 광고차단"
+    },
+    "i18n_manifiest_description": {
+        "message": "한국 사람들이 많이 방문하는 사이트 중점으로 원하지 않는 광고를 차단하는 미꾸라지 확장 기능입니다."
+    },
+    "i18n_describe_shortly": {
+        "message": "설명을 간략히 입력해 주세요."
+    },
+    "i18n_internal_error": {
+        "message": "내부 오류가 발생되었습니다."
+    },
+    "i18n_saved": {
+        "message": "저장되었습니다."
+    },
+    "i18n_report_blocking_problem": {
+        "message": "광고 차단 신고하기"
+    },
+    "i18n_report": {
+        "message": "신고하기"
+    },
+    "i18n_loading_dotdotdot": {
+        "message": "로딩중..."
+    },
+    "i18n_status": {
+        "message": "상태"
+    },
+    "i18n_filter_date": {
+        "message": "필터 날짜"
+    },
+    "i18n_describe": {
+        "message": "설명"
+    },
+    "i18n_block_count": {
+        "message": "차단 갯수"
+    },
+    "i18n_no_ad_block_working": {
+        "message": "광고 차단 안됨!"
+    },
+    "i18n_setup": {
+        "message": "설정"
+    },
+    "i18n_options_html_title": {
+        "message": "미꾸라지 광고차단 - 설정"
+    },
+    "i18n_general": {
+        "message": "일반"
+    },
+    "i18n_enable_filter": {
+        "message": "필터 활성화"
+    },
+    "i18n_enable_filter_description": {
+        "message": "미꾸라지 광고차단 기능을 켜거나 끄는 설정을 할 수 있습니다.  필터를 비활성화할 경우, 더 이상 광고차단 필터를 실행하지 않습니다."
+    },
+    "i18n_on": {
+        "message": "켜기"
+    },
+    "i18n_off": {
+        "message": "끄기"
+    },
+    "i18n_document": {
+        "message": "문서"
+    },
+    "i18n_devtools_html_title": {
+        "message": "미꾸라지 광고차단 - DevTools 확장기능"
+    },
+    "i18n_devtools_panel_html_title": {
+        "message": "미꾸라지 광고차단 - DevTools 패널"
+    },
+    "i18n_applied_rules": {
+        "message": "적용된 규칙"
+    },
+    "i18n_webextension": {
+        "message": "확장 기능"
+    }
+}

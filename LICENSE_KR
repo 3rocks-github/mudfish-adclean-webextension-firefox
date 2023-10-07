@@ -1,0 +1,33 @@
+미꾸라지 광고차단 확장 기능 라이센스
+====================================
+
+"미꾸라지 광고차단 확장 기능"에 적용되는 라이센스 내용입니다.
+
+* 이 확장 기능의 라이센스는 GPL-3.0 license 입니다.
+
+* 이 확장 기능은 "애드블록 커뮤니티와 AdGuard에서 관리하는 한국어 광고
+  차단 필터"를 가공하여 제공합니다.
+
+  * https://github.com/List-KR/List-KR 에서 필터 정보를 받으며, 해당 git
+    repo 가 GPL-3.0 license 임을 준수합니다.
+
+  * 이 확장 기능은 List-KR 필터를 가공만 할 뿐 filtering 룰의 pattern 을
+    **수정하지는 않습니다**.  여기서 가공이라고 함은
+
+    * EasyList 룰 형태를 Content Script 기반으로 변형을 합니다.
+
+    * EasyList 룰 형태를 Declarative Net Request 기반으로 변형을 합니다.
+
+  * 변경된 결과물은 https://mudfish.net/releases/adclean/ 에서 소스 형태로
+    살펴볼 수 있습니다.
+
+* 이 확장 기능은 위의 List-KR 기반 룰 외에 미꾸라지 자체 광고 필터링 룰 또한
+  적용됩니다.
+
+  * 자체 룰들 또한 GPL-3.0 license 형태로 배포됩니다.
+
+만약 라이센스 관련하여 위반 사항이 있거나, 추가 문의 사항이 있다면
+아래의 E메일로 문의를 주시기 바랍니다.
+
+  정원교 (Weongyo Jeong)
+  contact@mudfish.net 그리고 weongyo@gmail.com

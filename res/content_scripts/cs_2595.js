@@ -1,0 +1,1 @@
+(() => { Array.from(document.querySelectorAll(".market-info-view-wrap table.market-info-view-table tbody > tr")).filter(element => element.querySelector("th").innerText === "링크" ).forEach((element) => { element.querySelector("td > a").href = element.querySelector("td > a").innerText; })})();

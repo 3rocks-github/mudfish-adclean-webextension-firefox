@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title id="i18n_options_html_title"></title>
+  <meta charset="utf-8">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+      font-size: 10pt;
+    }
+
+    .menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+
+    .menu li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    .menu li a.active {
+      background-color: #D6BC0A;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #aaa;
+      color: white;
+    }
+
+    .help-block {
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      color: #737373;
+    }
+  </style>
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+</head>
+<body>
+  <span class="menu">
+    <ul>
+      <li>
+        <a class="active" href="#home" id="a_menu_general"><span id="i18n_general"></span></a>
+      </li>
+      <li><a target="_blank" href="https://docs.mudfish.net/ko/docs/mudfish-adclean/firefox/"
+             id="a_menu_document"><span id="i18n_document"></span></a></li>
+    </ul>
+    
+  </span>
+  <div style="margin-left:120px; padding-left: 120px; padding-top: 10px;">
+    <div id="adclean_options_menu_general">
+      <h1><span id="i18n_general"></span></h1>
+      <h3><span id="i18n_enable_filter"></span></h3>
+      <p class="help-block">
+        <span id="i18n_enable_filter_description"></span>
+      </p>
+      <div style="margin-left: 10px">
+        <label>
+          <input type="radio" name="filter_enable" value="on"><span id="i18n_on"></span>
+          <input type="radio" name="filter_enable" value="off"><span id="i18n_off"></span>
+        </label>
+      </div>
+      <div id="saved_box" style="margin-top: 50px; display: none;">
+        <span style="border-radius: 5px; border: 1px solid gray; padding: 10px;">Saved</span>
+      </div>
+    </div>
+  </div>
+  <script src="/js/options.js"></script>
+</body>
+</html>

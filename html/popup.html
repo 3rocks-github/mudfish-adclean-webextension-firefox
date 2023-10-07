@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+      font-size: 10pt;
+      width: 256px;
+      margin: 0px;
+      padding: 0px;
+    }
+  </style>
+  <link href="/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <table width="100%" style="padding: 5px">
+    <tr>
+      <td>
+        <a href="https://adclean.mudfish.net" target="_blank" id="popup_connect_homepage">
+          <img src="/images/popup-top-banner.png" />
+        </a>
+      </td>
+      <td><span id="i18n_manifest_name"></span><br><span id="adclean_version"></span></td>
+      <td>
+        <span id="adclean_options" class="fa fa-fw fa-cog"
+              style="font-size: 14pt; cursor: pointer;"></span>
+      </td>
+    </tr>
+  </table>
+  <div style="padding: 10px">
+    <span id="i18n_status"></span>
+    <ul>
+      <li><span id="i18n_filter_date"></span>: <span id="rules_generation_epoch"></span></li>
+    </ul>
+    <p><span id="i18n_report"></span></p>
+    <button id="report_blocking_problem_button"><span id="i18n_no_ad_block_working"></span></button>
+  </div>
+  <script src="/js/popup.js"></script>
+</body>
+</html>

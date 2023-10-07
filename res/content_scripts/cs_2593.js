@@ -1,0 +1,1 @@
+(() => { if (document.querySelector("input#SearchTermAdTxt").value === "") { document.querySelector("input#SearchProductKey").value = ""; document.querySelector("input.m_gnb_search_input").value = ""; } })();

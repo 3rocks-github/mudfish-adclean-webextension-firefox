@@ -1,0 +1,1 @@
+(() => { Array.from(document.querySelectorAll("a[href*='dealbada.com/bbs/link']")).forEach((e) => { e.href = e.innerText })})

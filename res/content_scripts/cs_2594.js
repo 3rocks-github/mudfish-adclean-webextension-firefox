@@ -1,0 +1,1 @@
+(() => { if (document.querySelector("input[name=SearchProductKey]").value === "") { document.querySelector("input#HeadSearchKeyword").value = ""; document.querySelector("input#fixedSearchKeyword").value = ""; } })();

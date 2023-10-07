@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+      font-size: 10pt;
+      width: 256px;
+      margin: 0px;
+      padding: 0px;
+    }
+  </style>
+</head>
+<body>
+  <table width="100%" style="padding: 5px">
+    <tr>
+      <td>
+        <a href="https://mudfish.net" target="_blank" id="popup_connect_homepage" title="">
+          <img src="/images/popup-top-banner.png" />
+        </a>
+      </td>
+      <td><span id="i18n_report_blocking_problem"></span>
+    </tr>
+  </table>
+  <div style="padding: 10px">
+    <table>
+    <tr><td width="20%">URL:</td><td><span id="report_url"><span id="i18n_loading_dotdotdot"></span></span></td></tr>
+    <tr><td width="20%"><span id="i18n_describe"></span>:</td><td><input id="report_body" type="text" style="width: 100%"></td></tr>
+    </table>
+    <p>
+      <button id="submit"><span id="i18n_report"></span></button>
+      <span id="submit_result"></span>
+    </p>
+  </div>
+  <script src="/js/axios.min.js"></script>
+  <script src="/js/report_blocking_problem.js"></script>
+</body>
+</html>
