@@ -18,8 +18,9 @@
 
     * EasyList 룰 형태를 Declarative Net Request 기반으로 변형을 합니다.
 
-  * 변경된 결과물은 https://mudfish.net/releases/adclean/ 에서 소스 형태로
-    살펴볼 수 있습니다.
+  * 변경된 결과물 및 전체 소스는 아래의 링크에서 찾으실 수 있습니다.
+
+    * https://github.com/3rocks-github/
 
 * 이 확장 기능은 위의 List-KR 기반 룰 외에 미꾸라지 자체 광고 필터링 룰 또한
   적용됩니다.
