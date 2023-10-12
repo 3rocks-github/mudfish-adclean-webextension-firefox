@@ -1,27 +1,22 @@
 
 function mudfish_adclean_1f7f5309df8fdffa14938169052e76bf() {
-  var g_conf = {
-    mudfish_adclean_filter_on: true
-  };
-  chrome.storage.local.get(g_conf, function (items) {
-    if (!g_conf.mudfish_adclean_filter_on) {
-      return;
-    }
-    try {
-      Sizzle(`.area_real_news article.gdn`).forEach(element => {
-        element.style.display = "none";
-      });
-    } catch (error) {
-      console.log('[ERROR] mudfish_adclean rule error: ' + error);
-    }
-  });
+  try {
+    Sizzle(`.area_real_news article.gdn`).forEach(element => {
+      element.style.display = "none";
+    });
+  } catch (error) {
+    console.log('[ERROR] mudfish_adclean rule error: ' + error);
+  }
 }
 
-var mudfish_adclean_is_firefox = typeof InstallTrigger !== 'undefined';
-if (mudfish_adclean_is_firefox) {
-  mudfish_adclean_1f7f5309df8fdffa14938169052e76bf();
-} else {
-  window.addEventListener("load", (event) => {
-    mudfish_adclean_1f7f5309df8fdffa14938169052e76bf();
-  });
-}
+var mudfish_adclean_g_conf_1f7f5309df8fdffa14938169052e76bf = {
+  mudfish_adclean_filter_on: true
+};
+chrome.storage.local.get(mudfish_adclean_g_conf_1f7f5309df8fdffa14938169052e76bf, function (items) {
+  if (mudfish_adclean_g_conf_1f7f5309df8fdffa14938169052e76bf.mudfish_adclean_filter_on) {
+    const observer = new MutationObserver(() => {
+      mudfish_adclean_1f7f5309df8fdffa14938169052e76bf();
+    });
+    observer.observe(document, { childList: true, subtree: true });
+  }
+});

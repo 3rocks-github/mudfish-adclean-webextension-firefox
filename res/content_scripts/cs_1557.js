@@ -1,27 +1,22 @@
 
 function mudfish_adclean_193d294c76aaf94ac1726de70a62fe51() {
-  var g_conf = {
-    mudfish_adclean_filter_on: true
-  };
-  chrome.storage.local.get(g_conf, function (items) {
-    if (!g_conf.mudfish_adclean_filter_on) {
-      return;
-    }
-    try {
-      Sizzle(`li[data-cr-area][data-cr-gdid^="nad-"]._svp_item`).forEach(element => {
-        element.style.display = "none";
-      });
-    } catch (error) {
-      console.log('[ERROR] mudfish_adclean rule error: ' + error);
-    }
-  });
+  try {
+    Sizzle(`li[data-cr-area][data-cr-gdid^="nad-"]._svp_item`).forEach(element => {
+      element.style.display = "none";
+    });
+  } catch (error) {
+    console.log('[ERROR] mudfish_adclean rule error: ' + error);
+  }
 }
 
-var mudfish_adclean_is_firefox = typeof InstallTrigger !== 'undefined';
-if (mudfish_adclean_is_firefox) {
-  mudfish_adclean_193d294c76aaf94ac1726de70a62fe51();
-} else {
-  window.addEventListener("load", (event) => {
-    mudfish_adclean_193d294c76aaf94ac1726de70a62fe51();
-  });
-}
+var mudfish_adclean_g_conf_193d294c76aaf94ac1726de70a62fe51 = {
+  mudfish_adclean_filter_on: true
+};
+chrome.storage.local.get(mudfish_adclean_g_conf_193d294c76aaf94ac1726de70a62fe51, function (items) {
+  if (mudfish_adclean_g_conf_193d294c76aaf94ac1726de70a62fe51.mudfish_adclean_filter_on) {
+    const observer = new MutationObserver(() => {
+      mudfish_adclean_193d294c76aaf94ac1726de70a62fe51();
+    });
+    observer.observe(document, { childList: true, subtree: true });
+  }
+});

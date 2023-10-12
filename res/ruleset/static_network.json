@@ -5072,36 +5072,6 @@
         }
     },
     {
-        "id": 581,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||m.mydaily.co.kr/new/img/*.gif|"
-        }
-    },
-    {
-        "id": 582,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||mydaily.co.kr/ad/adimage/"
-        }
-    },
-    {
-        "id": 583,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||mydaily.co.kr/new_yk/html/images_mj/*.gif|"
-        }
-    },
-    {
         "id": 584,
         "priority": 1,
         "action": {
@@ -5713,16 +5683,6 @@
         },
         "condition": {
             "urlFilter": "||images.nstatic.org/banner/"
-        }
-    },
-    {
-        "id": 644,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||cafe.naver.com/PlugFloatingAdvert.nhn"
         }
     },
     {
@@ -8267,20 +8227,6 @@
         },
         "condition": {
             "urlFilter": "||m.ytn.co.kr/ad/"
-        }
-    },
-    {
-        "id": 909,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "10000recipe.com",
-                "quasarzone.com"
-            ],
-            "urlFilter": "||static.coupangcdn.com/image/vendor_inventory/"
         }
     },
     {
@@ -12987,16 +12933,6 @@
         }
     },
     {
-        "id": 3297,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||slrclub.com/bbs/*.php*slrclub.ch*response&ref"
-        }
-    },
-    {
         "id": 3298,
         "priority": 1,
         "action": {
@@ -13083,31 +13019,6 @@
         }
     },
     {
-        "id": 3306,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "wfwf287.com",
-                "wfwf288.com",
-                "wfwf289.com",
-                "wfwf290.com",
-                "wfwf291.com",
-                "wfwf292.com",
-                "wfwf293.com",
-                "wfwf294.com",
-                "wfwf295.com",
-                "wfwf296.com",
-                "wfwf297.com",
-                "wfwf298.com",
-                "wfwf299.com"
-            ],
-            "regexFilter": "^https:\\/\\/imgcloud[0-9]+\\.net\\/"
-        }
-    },
-    {
         "id": 3332,
         "priority": 2,
         "action": {
@@ -13134,13 +13045,238 @@
         }
     },
     {
-        "id": 3344,
+        "id": 3345,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||upload.tgd.kr/20231005/4fd21aea31d93395617cd1d29b093c34.jpg"
+        }
+    },
+    {
+        "id": 3346,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||upload.tgd.kr/20231005/6845475ca9c7ab10fa0579f8460779fd.jpg"
+        }
+    },
+    {
+        "id": 3347,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||img.nate.com/kwshop/ad_img/nice/"
+        }
+    },
+    {
+        "id": 3348,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||img.koreatimes.com/*/images/townads/"
+        }
+    },
+    {
+        "id": 3349,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||img.koreatimes.com/banner/files/"
+        }
+    },
+    {
+        "id": 3350,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||beautynury.com/data/ad/"
+        }
+    },
+    {
+        "id": 3351,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
             "initiatorDomains": [
+                "databasefootball.com"
+            ],
+            "regexFilter": "^https:\\/\\/[a-z0-9_]+\\.dishcrop\\.care\\/"
+        }
+    },
+    {
+        "id": 3352,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||msearch.shopping.naver.com/api/search/reactiveSearchAd"
+        }
+    },
+    {
+        "id": 3353,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||recipe1.ezmember.co.kr/ad/img/"
+        }
+    },
+    {
+        "id": 3354,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||slrclub.com/bbs/*.php*slrclub.ch*keyword*&callback="
+        }
+    },
+    {
+        "id": 3355,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "lifedesk.co.kr",
+                "eanews.kr"
+            ],
+            "urlFilter": "||static.coupangcdn.com/image/"
+        }
+    },
+    {
+        "id": 3356,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "lifedesk.co.kr",
+                "eanews.kr"
+            ],
+            "urlFilter": "||ehom.kr/banner/"
+        }
+    },
+    {
+        "id": 3357,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "kktv365.com",
+                "kktv366.com",
+                "kktv367.com",
+                "kktv368.com",
+                "kktv369.com",
+                "kktv370.com",
+                "kktv371.com",
+                "kktv372.com",
+                "kktv373.com",
+                "kktv374.com",
+                "kktv375.com",
+                "kktv376.com"
+            ],
+            "regexFilter": "^https:\\/\\/cdn\\.kktv[0-9]+\\.com\\/data\\/editor\\/"
+        }
+    },
+    {
+        "id": 3358,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "kktv365.com",
+                "kktv366.com",
+                "kktv367.com",
+                "kktv368.com",
+                "kktv369.com",
+                "kktv370.com",
+                "kktv371.com",
+                "kktv372.com",
+                "kktv373.com",
+                "kktv374.com",
+                "kktv375.com",
+                "kktv376.com"
+            ],
+            "urlFilter": "||cdn.ksportscdn.com/data/editor/"
+        }
+    },
+    {
+        "id": 3359,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "wfwf291.com",
+                "wfwf292.com",
+                "wfwf293.com",
+                "wfwf294.com",
+                "wfwf295.com",
+                "wfwf296.com",
+                "wfwf297.com",
+                "wfwf298.com",
+                "wfwf299.com",
+                "wfwf300.com",
+                "wfwf301.com",
+                "wfwf302.com",
+                "wfwf303.com"
+            ],
+            "regexFilter": "^https:\\/\\/iabn[0-9]+\\.net\\/"
+        }
+    },
+    {
+        "id": 3389,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||mydaily.co.kr/upload/ads/"
+        }
+    },
+    {
+        "id": 3390,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/agit[0-9]+\\.com\\/upload\\/[0-9]+\\/[0-9]+\\/[0-9]+\\."
+        }
+    },
+    {
+        "id": 3401,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "singingdalong.blogspot.com",
                 "goodgag.net",
                 "bera.world",
                 "sellas.ink",
