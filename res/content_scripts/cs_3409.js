@@ -3,14 +3,12 @@ var mudfish_adclean_youtube_hide_timer = null;
 (function () {
   function mudfish_adclean_youtube_hide() {
     try {
-      var a = document.querySelector("ytd-player-legacy-desktop-watch-ads-renderer");
-      if (a !== null) {
-        a.style.display = 'none';
-      }
-      var b = document.querySelector("ytd-ad-slot-renderer");
-      if (b !== null) {
-        b.style.display = 'none';
-      }
+      document.querySelectorAll("ytd-player-legacy-desktop-watch-ads-renderer").forEach(element => {
+        element.style.display = 'none';
+      });
+      document.querySelectorAll("ytd-ad-slot-renderer").forEach(element => {
+        element.style.display = 'none';
+      });
     } catch (error) {
     }
   }

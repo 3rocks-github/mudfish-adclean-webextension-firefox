@@ -13310,5 +13310,64 @@
             ],
             "urlFilter": "||fundingchoicesmessages.google.com^"
         }
+    },
+    {
+        "id": 3402,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "_ad_banner_"
+        }
+    },
+    {
+        "id": 3403,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "resourceTypes": [
+                "main_frame"
+            ],
+            "urlFilter": "||ak.jeekomih.com^"
+        }
+    },
+    {
+        "id": 3404,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "resourceTypes": [
+                "main_frame"
+            ],
+            "urlFilter": "||ak.psaltauw.net^"
+        }
+    },
+    {
+        "id": 3405,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||lickinggetting.com^"
+        }
+    },
+    {
+        "id": 3406,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "evoload.fun"
+            ],
+            "urlFilter": "||zk.kabscarbide.com^"
+        }
     }
 ]

@@ -3,7 +3,7 @@
     "name": "__MSG_i18n_manifest_name__",
     "description": "__MSG_i18n_manifiest_description__",
     "default_locale": "ko",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "action": {
         "default_icon": "/images/default-icon.png",
         "default_popup": "/html/popup.html"
@@ -15981,15 +15981,6 @@
         },
         {
             "matches": [
-                "*://*.youtube.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_3239.js"
-            ]
-        },
-        {
-            "matches": [
                 "*://mnews.imaeil.com/*"
             ],
             "js": [
@@ -17537,11 +17528,40 @@
         },
         {
             "matches": [
+                "*://*.twitch.tv/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_twitch.js"
+            ],
+            "run_at": "document_start"
+        },
+        {
+            "matches": [
+                "*://*.youtube.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3409.js"
+            ]
+        },
+        {
+            "matches": [
                 "*://*/*"
             ],
             "js": [
                 "/js/sizzle.js",
                 "/res/content_scripts/cs_all.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "matches": [
+                "*://*.twitch.tv/*"
+            ],
+            "resources": [
+                "/res/web_accessible_resources/war_twitch.js"
             ]
         }
     ]
