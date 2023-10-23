@@ -3341,20 +3341,6 @@
         }
     },
     {
-        "id": 412,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "naver.com"
-            ],
-            "isUrlFilterCaseSensitive": true,
-            "regexFilter": "^https:\\/\\/nng-phinf\\.pstatic\\.net\\/.+\\/[%A-z0-9\\.]*[0-9]+(x|X)[0-9]+.*_naverads\\."
-        }
-    },
-    {
         "id": 413,
         "priority": 1,
         "action": {
@@ -4638,19 +4624,6 @@
         },
         "condition": {
             "urlFilter": "||maxmovie.com/ad/"
-        }
-    },
-    {
-        "id": 538,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "naver.com"
-            ],
-            "regexFilter": "^https:\\/\\/sports-phinf\\.pstatic\\.net\\/[0-9]{8}_[0-9]{2,}\\/[A-z0-9]+_PNG\\/[A-Z0-9%\\._]+"
         }
     },
     {
@@ -9598,26 +9571,6 @@
         }
     },
     {
-        "id": 1060,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||tvchak.live/img/bbnn"
-        }
-    },
-    {
-        "id": 1061,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||tvchak.live/img/banner*.gif"
-        }
-    },
-    {
         "id": 1062,
         "priority": 1,
         "action": {
@@ -10124,16 +10077,6 @@
         },
         "condition": {
             "urlFilter": "||filetender.com/images/*.gif"
-        }
-    },
-    {
-        "id": 1138,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||i.uuoobe.com/ad/"
         }
     },
     {
@@ -12381,34 +12324,6 @@
         }
     },
     {
-        "id": 3097,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "torrentreel42.site",
-                "torrentreel43.site",
-                "torrentreel44.site",
-                "torrentreel45.site",
-                "torrentreel46.site",
-                "torrentreel47.site",
-                "torrentreel48.site",
-                "torrentreel49.site",
-                "torrentreel50.site",
-                "torrentreel51.site",
-                "torrentreel52.site",
-                "torrentreel53.site",
-                "torrentreel54.site",
-                "torrentreel55.site",
-                "torrentreel56.site",
-                "torrentreel57.site"
-            ],
-            "urlFilter": "||i.uuoobe.com/images/"
-        }
-    },
-    {
         "id": 3098,
         "priority": 1,
         "action": {
@@ -13368,6 +13283,193 @@
                 "evoload.fun"
             ],
             "urlFilter": "||zk.kabscarbide.com^"
+        }
+    },
+    {
+        "id": 3412,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||aproxylog-next.tving.com^"
+        }
+    },
+    {
+        "id": 3413,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||aproxy-next.tving.com^"
+        }
+    },
+    {
+        "id": 3414,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||i.keezip.com^"
+        }
+    },
+    {
+        "id": 3415,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||adfork.co.kr^"
+        }
+    },
+    {
+        "id": 3417,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||tenbizt.com/wp-content/plugins/advanced-ads"
+        }
+    },
+    {
+        "id": 3418,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||public-api.wadiz.kr/main/info/marketing"
+        }
+    },
+    {
+        "id": 3419,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||service.wadiz.kr/api/*/wadizad/host/keyvisual"
+        }
+    },
+    {
+        "id": 3420,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "m.humoruniv.com"
+            ],
+            "regexFilter": "^https?:\\/\\/timg\\.humoruniv\\.com\\/thumb_crop_resize\\.php\\?url=https?:\\/\\/[A-z0-9\\.]+\\/.+\\?SIZE=[0-9]+(x|X)[0-9]+\\?OPT=center"
+        }
+    },
+    {
+        "id": 3421,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||src.hidoc.co.kr/image/ad/"
+        }
+    },
+    {
+        "id": 3422,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||m.health.chosun.com/js/*_banner_"
+        }
+    },
+    {
+        "id": 3423,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||health.chosun.com/images/event/app_"
+        }
+    },
+    {
+        "id": 3424,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||player.globalsun.io/*-player.js"
+        }
+    },
+    {
+        "id": 3425,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||nanumy.co.kr/images/main/banner/nanumy/"
+        }
+    },
+    {
+        "id": 3426,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||nanumy.co.kr/Files/*/Template/"
+        }
+    },
+    {
+        "id": 3427,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "naver.com"
+            ],
+            "isUrlFilterCaseSensitive": true,
+            "regexFilter": "^https:\\/\\/nng-phinf\\.pstatic\\.net\\/.+\\/[%A-z0-9\\.]+([0-9]+(x|X)[0-9]+)?000000_naverads\\."
+        }
+    },
+    {
+        "id": 3428,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/www\\.torrentreel[0-9]+\\.site\\/ad\\/"
+        }
+    },
+    {
+        "id": 3429,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/tvchak[0-9]+\\.com\\/img\\/bbnn"
+        }
+    },
+    {
+        "id": 3456,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||cdn2.ppomppu.co.kr/zboard/data*/banner/"
         }
     }
 ]

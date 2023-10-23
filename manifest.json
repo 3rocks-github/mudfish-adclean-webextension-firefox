@@ -2932,15 +2932,6 @@
             ],
             "js": [
                 "/js/sizzle.js",
-                "/res/content_scripts/cs_1496.js"
-            ]
-        },
-        {
-            "matches": [
-                "*://m.health.chosun.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
                 "/res/content_scripts/cs_1498.js"
             ]
         },
@@ -3368,15 +3359,6 @@
             ],
             "js": [
                 "/js/sizzle.js",
-                "/res/content_scripts/cs_1557.js"
-            ]
-        },
-        {
-            "matches": [
-                "*://search.naver.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
                 "/res/content_scripts/cs_1558.js"
             ]
         },
@@ -3473,16 +3455,6 @@
             "js": [
                 "/js/sizzle.js",
                 "/res/content_scripts/cs_1569.js"
-            ]
-        },
-        {
-            "matches": [
-                "*://pervsi.com/*",
-                "*://www.pervsi.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_1570.js"
             ]
         },
         {
@@ -4003,15 +3975,6 @@
             "js": [
                 "/js/sizzle.js",
                 "/res/content_scripts/cs_1634.js"
-            ]
-        },
-        {
-            "matches": [
-                "*://meeco.kr/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_1635.js"
             ]
         },
         {
@@ -5790,16 +5753,6 @@
             "js": [
                 "/js/sizzle.js",
                 "/res/content_scripts/cs_1840.js"
-            ]
-        },
-        {
-            "matches": [
-                "*://tvchak.com/*",
-                "*://www.tvchak.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_1841.js"
             ]
         },
         {
@@ -8058,15 +8011,6 @@
         },
         {
             "matches": [
-                "*://tvchak.live/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_2103.js"
-            ]
-        },
-        {
-            "matches": [
                 "*://etorrentro.net/*",
                 "*://www.etorrentro.net/*"
             ],
@@ -9591,27 +9535,6 @@
         },
         {
             "matches": [
-                "*://marupost.mycafe24.com/*",
-                "*://tvchak.com/*",
-                "*://www.tvchak.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_2362.js"
-            ]
-        },
-        {
-            "matches": [
-                "*://tvchak.com/*",
-                "*://www.tvchak.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_2363.js"
-            ]
-        },
-        {
-            "matches": [
                 "*://news.unn.net/*"
             ],
             "js": [
@@ -9846,16 +9769,6 @@
             "js": [
                 "/js/sizzle.js",
                 "/res/content_scripts/cs_2392.js"
-            ]
-        },
-        {
-            "matches": [
-                "*://acmicpc.net/*",
-                "*://www.acmicpc.net/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_2393.js"
             ]
         },
         {
@@ -12627,34 +12540,6 @@
             "js": [
                 "/js/sizzle.js",
                 "/res/content_scripts/cs_2952.js"
-            ]
-        },
-        {
-            "matches": [
-                "*://www.auction.co.kr/*",
-                "*://m.11st.co.kr/*",
-                "*://todaysppc.com/*",
-                "*://www.todaysppc.com/*",
-                "*://gmarket.co.kr/*",
-                "*://www.gmarket.co.kr/*",
-                "*://kpenews.com/*",
-                "*://www.kpenews.com/*",
-                "*://m.diningcode.com/*",
-                "*://insight.co.kr/*",
-                "*://www.insight.co.kr/*",
-                "*://cgv.co.kr/*",
-                "*://www.cgv.co.kr/*",
-                "*://m.inven.co.kr/*",
-                "*://tipsandtrickskorea.com/*",
-                "*://www.tipsandtrickskorea.com/*",
-                "*://gamemeca.com/*",
-                "*://www.gamemeca.com/*",
-                "*://yeongnam.com/*",
-                "*://www.yeongnam.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_2972.js"
             ]
         },
         {
@@ -15693,30 +15578,6 @@
         },
         {
             "matches": [
-                "*://torrentreel42.site/*",
-                "*://torrentreel43.site/*",
-                "*://torrentreel44.site/*",
-                "*://torrentreel45.site/*",
-                "*://torrentreel46.site/*",
-                "*://torrentreel47.site/*",
-                "*://torrentreel48.site/*",
-                "*://torrentreel49.site/*",
-                "*://torrentreel50.site/*",
-                "*://torrentreel51.site/*",
-                "*://torrentreel52.site/*",
-                "*://torrentreel53.site/*",
-                "*://torrentreel54.site/*",
-                "*://torrentreel55.site/*",
-                "*://torrentreel56.site/*",
-                "*://torrentreel57.site/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_3210.js"
-            ]
-        },
-        {
-            "matches": [
                 "*://yagong64.com/*",
                 "*://www.yagong64.com/*",
                 "*://yagong65.com/*",
@@ -16017,25 +15878,6 @@
             "js": [
                 "/js/sizzle.js",
                 "/res/content_scripts/cs_3251.js"
-            ]
-        },
-        {
-            "matches": [
-                "*://ruliweb.com/*",
-                "*://www.ruliweb.com/*",
-                "*://tvreport.co.kr/*",
-                "*://www.tvreport.co.kr/*",
-                "*://ddengle.com/*",
-                "*://www.ddengle.com/*",
-                "*://xportsnews.com/*",
-                "*://www.xportsnews.com/*",
-                "*://woman.donga.com/*",
-                "*://thisisgame.com/*",
-                "*://www.thisisgame.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_3252.js"
             ]
         },
         {
@@ -16730,174 +16572,6 @@
         },
         {
             "matches": [
-                "*://beautynury.com/*",
-                "*://www.beautynury.com/*",
-                "*://donga.com/*",
-                "*://www.donga.com/*",
-                "*://news.zum.com/*",
-                "*://m.heraldpop.com/*",
-                "*://m.jjang0u.com/*",
-                "*://compuzone.co.kr/*",
-                "*://www.compuzone.co.kr/*",
-                "*://dak.gg/*",
-                "*://osmanias.com/*",
-                "*://www.osmanias.com/*",
-                "*://imnews.imbc.com/*",
-                "*://edaily.co.kr/*",
-                "*://www.edaily.co.kr/*",
-                "*://mk.co.kr/*",
-                "*://www.mk.co.kr/*",
-                "*://v.daum.net/*",
-                "*://humoruniv.com/*",
-                "*://www.humoruniv.com/*",
-                "*://etoday.co.kr/*",
-                "*://www.etoday.co.kr/*",
-                "*://kukinews.com/*",
-                "*://www.kukinews.com/*",
-                "*://nesin.com/*",
-                "*://www.nesin.com/*",
-                "*://search.naver.com/*",
-                "*://dprime.kr/*",
-                "*://encar.com/*",
-                "*://www.encar.com/*",
-                "*://m.todayhumor.co.kr/*",
-                "*://zdnet.co.kr/*",
-                "*://www.zdnet.co.kr/*",
-                "*://m.search.daum.net/*",
-                "*://teamblind.com/*",
-                "*://www.teamblind.com/*",
-                "*://unsin.co.kr/*",
-                "*://www.unsin.co.kr/*",
-                "*://m.mk.co.kr/*",
-                "*://m.cafe.naver.com/*",
-                "*://nocutnews.co.kr/*",
-                "*://www.nocutnews.co.kr/*",
-                "*://news.sbs.co.kr/*",
-                "*://mbiz.heraldcorp.com/*",
-                "*://m.starnewskorea.com/*",
-                "*://etnews.com/*",
-                "*://www.etnews.com/*",
-                "*://sedaily.com/*",
-                "*://www.sedaily.com/*",
-                "*://m.danawa.com/*",
-                "*://sportalkorea.com/*",
-                "*://www.sportalkorea.com/*",
-                "*://news.jtbc.co.kr/*",
-                "*://ohmynews.com/*",
-                "*://www.ohmynews.com/*",
-                "*://hankyung.com/*",
-                "*://www.hankyung.com/*",
-                "*://news1.kr/*",
-                "*://asiae.co.kr/*",
-                "*://www.asiae.co.kr/*",
-                "*://khan.co.kr/*",
-                "*://www.khan.co.kr/*",
-                "*://avjamak.net/*",
-                "*://www.avjamak.net/*",
-                "*://kmib.co.kr/*",
-                "*://www.kmib.co.kr/*",
-                "*://prod.danawa.com/*",
-                "*://news.v.daum.net/*",
-                "*://joongang.co.kr/*",
-                "*://www.joongang.co.kr/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_3361.js"
-            ]
-        },
-        {
-            "matches": [
-                "*://tgdaily.co.kr/*",
-                "*://www.tgdaily.co.kr/*",
-                "*://eanews.kr/*",
-                "*://lifedesk.co.kr/*",
-                "*://www.lifedesk.co.kr/*",
-                "*://newdailyhealth.co.kr/*",
-                "*://www.newdailyhealth.co.kr/*",
-                "*://daejonilbo.com/*",
-                "*://www.daejonilbo.com/*",
-                "*://chungnamilbo.co.kr/*",
-                "*://www.chungnamilbo.co.kr/*",
-                "*://incheonilbo.com/*",
-                "*://www.incheonilbo.com/*",
-                "*://ggilbo.com/*",
-                "*://www.ggilbo.com/*",
-                "*://bloter.net/*",
-                "*://www.bloter.net/*",
-                "*://sportsseoul.com/*",
-                "*://www.sportsseoul.com/*",
-                "*://nbnbiz.co.kr/*",
-                "*://www.nbnbiz.co.kr/*",
-                "*://enetnews.co.kr/*",
-                "*://www.enetnews.co.kr/*",
-                "*://newsnjoy.or.kr/*",
-                "*://mediaus.co.kr/*",
-                "*://www.mediaus.co.kr/*",
-                "*://ziksir.com/*",
-                "*://www.ziksir.com/*",
-                "*://daily.hankooki.com/*",
-                "*://ccdailynews.com/*",
-                "*://www.ccdailynews.com/*",
-                "*://topstarnews.net/*",
-                "*://www.topstarnews.net/*",
-                "*://spotvnews.co.kr/*",
-                "*://www.spotvnews.co.kr/*",
-                "*://foodnews.co.kr/*",
-                "*://www.foodnews.co.kr/*",
-                "*://hankooki.com/*",
-                "*://www.hankooki.com/*",
-                "*://spochoo.com/*",
-                "*://www.spochoo.com/*",
-                "*://digitaltoday.co.kr/*",
-                "*://www.digitaltoday.co.kr/*",
-                "*://orbi.kr/*",
-                "*://weekly.chosun.com/*",
-                "*://nzkoreapost.com/*",
-                "*://www.nzkoreapost.com/*",
-                "*://pinpointnews.co.kr/*",
-                "*://www.pinpointnews.co.kr/*",
-                "*://huffingtonpost.kr/*",
-                "*://eroun.net/*",
-                "*://www.eroun.net/*",
-                "*://cnet.co.kr/*",
-                "*://www.cnet.co.kr/*",
-                "*://hogangnono.com/*",
-                "*://www.hogangnono.com/*",
-                "*://ppomppu.co.kr/*",
-                "*://www.ppomppu.co.kr/*",
-                "*://interfootball.co.kr/*",
-                "*://www.interfootball.co.kr/*",
-                "*://police112.co.kr/*",
-                "*://www.police112.co.kr/*",
-                "*://dpg.danawa.com/*",
-                "*://m.danawa.com/*",
-                "*://kimpga.com/*",
-                "*://www.kimpga.com/*",
-                "*://youthassembly.kr/*",
-                "*://algumon.com/*",
-                "*://www.algumon.com/*",
-                "*://tvchak.com/*",
-                "*://www.tvchak.com/*",
-                "*://dailysecu.com/*",
-                "*://www.dailysecu.com/*",
-                "*://hankyung.com/*",
-                "*://www.hankyung.com/*",
-                "*://m.etnews.com/*",
-                "*://hani.co.kr/*",
-                "*://www.hani.co.kr/*",
-                "*://hankookilbo.com/*",
-                "*://www.hankookilbo.com/*",
-                "*://newspim.com/*",
-                "*://www.newspim.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_3362.js"
-            ]
-        },
-        {
-            "matches": [
                 "*://eanews.kr/*",
                 "*://economist.co.kr/*",
                 "*://www.economist.co.kr/*",
@@ -17026,26 +16700,6 @@
             "js": [
                 "/js/sizzle.js",
                 "/res/content_scripts/cs_3375.js"
-            ]
-        },
-        {
-            "matches": [
-                "*://beautynury.com/*",
-                "*://www.beautynury.com/*",
-                "*://kwnews.co.kr/*",
-                "*://www.kwnews.co.kr/*",
-                "*://kyeonggi.com/*",
-                "*://www.kyeonggi.com/*",
-                "*://jjan.kr/*",
-                "*://www.naver.com/*",
-                "*://koreatimes.net/*",
-                "*://www.koreatimes.net/*",
-                "*://r114.com/*",
-                "*://www.r114.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_3376.js"
             ]
         },
         {
@@ -17448,86 +17102,6 @@
         },
         {
             "matches": [
-                "*://torrentsee187.com/*",
-                "*://www.torrentsee187.com/*",
-                "*://torrentsee188.com/*",
-                "*://www.torrentsee188.com/*",
-                "*://torrentsee189.com/*",
-                "*://www.torrentsee189.com/*",
-                "*://torrentsee190.com/*",
-                "*://www.torrentsee190.com/*",
-                "*://torrentsee191.com/*",
-                "*://www.torrentsee191.com/*",
-                "*://torrentsee192.com/*",
-                "*://www.torrentsee192.com/*",
-                "*://torrentsee193.com/*",
-                "*://www.torrentsee193.com/*",
-                "*://torrentsee194.com/*",
-                "*://www.torrentsee194.com/*",
-                "*://torrentsee196.com/*",
-                "*://www.torrentsee196.com/*",
-                "*://torrentsee197.com/*",
-                "*://www.torrentsee197.com/*",
-                "*://torrentsee198.com/*",
-                "*://www.torrentsee198.com/*",
-                "*://torrentsee199.com/*",
-                "*://www.torrentsee199.com/*",
-                "*://torrentsee200.com/*",
-                "*://www.torrentsee200.com/*",
-                "*://torrentsee201.com/*",
-                "*://www.torrentsee201.com/*",
-                "*://torrentsee202.com/*",
-                "*://www.torrentsee202.com/*",
-                "*://torrentsee203.com/*",
-                "*://www.torrentsee203.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_3399.js"
-            ]
-        },
-        {
-            "matches": [
-                "*://torrentsee187.com/*",
-                "*://www.torrentsee187.com/*",
-                "*://torrentsee188.com/*",
-                "*://www.torrentsee188.com/*",
-                "*://torrentsee189.com/*",
-                "*://www.torrentsee189.com/*",
-                "*://torrentsee190.com/*",
-                "*://www.torrentsee190.com/*",
-                "*://torrentsee191.com/*",
-                "*://www.torrentsee191.com/*",
-                "*://torrentsee192.com/*",
-                "*://www.torrentsee192.com/*",
-                "*://torrentsee193.com/*",
-                "*://www.torrentsee193.com/*",
-                "*://torrentsee194.com/*",
-                "*://www.torrentsee194.com/*",
-                "*://torrentsee196.com/*",
-                "*://www.torrentsee196.com/*",
-                "*://torrentsee197.com/*",
-                "*://www.torrentsee197.com/*",
-                "*://torrentsee198.com/*",
-                "*://www.torrentsee198.com/*",
-                "*://torrentsee199.com/*",
-                "*://www.torrentsee199.com/*",
-                "*://torrentsee200.com/*",
-                "*://www.torrentsee200.com/*",
-                "*://torrentsee201.com/*",
-                "*://www.torrentsee201.com/*",
-                "*://torrentsee202.com/*",
-                "*://www.torrentsee202.com/*",
-                "*://torrentsee203.com/*",
-                "*://www.torrentsee203.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_3400.js"
-            ]
-        },
-        {
-            "matches": [
                 "*://*.twitch.tv/*"
             ],
             "js": [
@@ -17543,6 +17117,646 @@
             "js": [
                 "/js/sizzle.js",
                 "/res/content_scripts/cs_3409.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://search.naver.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3410.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://search.daum.net/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3411.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://health.chosun.com/*",
+                "*://beautynury.com/*",
+                "*://www.beautynury.com/*",
+                "*://donga.com/*",
+                "*://www.donga.com/*",
+                "*://news.zum.com/*",
+                "*://m.heraldpop.com/*",
+                "*://m.jjang0u.com/*",
+                "*://compuzone.co.kr/*",
+                "*://www.compuzone.co.kr/*",
+                "*://dak.gg/*",
+                "*://osmanias.com/*",
+                "*://www.osmanias.com/*",
+                "*://imnews.imbc.com/*",
+                "*://edaily.co.kr/*",
+                "*://www.edaily.co.kr/*",
+                "*://mk.co.kr/*",
+                "*://www.mk.co.kr/*",
+                "*://v.daum.net/*",
+                "*://humoruniv.com/*",
+                "*://www.humoruniv.com/*",
+                "*://etoday.co.kr/*",
+                "*://www.etoday.co.kr/*",
+                "*://kukinews.com/*",
+                "*://www.kukinews.com/*",
+                "*://nesin.com/*",
+                "*://www.nesin.com/*",
+                "*://search.naver.com/*",
+                "*://dprime.kr/*",
+                "*://encar.com/*",
+                "*://www.encar.com/*",
+                "*://m.todayhumor.co.kr/*",
+                "*://zdnet.co.kr/*",
+                "*://www.zdnet.co.kr/*",
+                "*://m.search.daum.net/*",
+                "*://teamblind.com/*",
+                "*://www.teamblind.com/*",
+                "*://unsin.co.kr/*",
+                "*://www.unsin.co.kr/*",
+                "*://m.mk.co.kr/*",
+                "*://m.cafe.naver.com/*",
+                "*://nocutnews.co.kr/*",
+                "*://www.nocutnews.co.kr/*",
+                "*://news.sbs.co.kr/*",
+                "*://mbiz.heraldcorp.com/*",
+                "*://m.starnewskorea.com/*",
+                "*://etnews.com/*",
+                "*://www.etnews.com/*",
+                "*://sedaily.com/*",
+                "*://www.sedaily.com/*",
+                "*://m.danawa.com/*",
+                "*://sportalkorea.com/*",
+                "*://www.sportalkorea.com/*",
+                "*://news.jtbc.co.kr/*",
+                "*://ohmynews.com/*",
+                "*://www.ohmynews.com/*",
+                "*://hankyung.com/*",
+                "*://www.hankyung.com/*",
+                "*://news1.kr/*",
+                "*://asiae.co.kr/*",
+                "*://www.asiae.co.kr/*",
+                "*://khan.co.kr/*",
+                "*://www.khan.co.kr/*",
+                "*://avjamak.net/*",
+                "*://www.avjamak.net/*",
+                "*://kmib.co.kr/*",
+                "*://www.kmib.co.kr/*",
+                "*://prod.danawa.com/*",
+                "*://news.v.daum.net/*",
+                "*://joongang.co.kr/*",
+                "*://www.joongang.co.kr/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3430.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://getnews.co.kr/*",
+                "*://www.getnews.co.kr/*",
+                "*://tgdaily.co.kr/*",
+                "*://www.tgdaily.co.kr/*",
+                "*://eanews.kr/*",
+                "*://lifedesk.co.kr/*",
+                "*://www.lifedesk.co.kr/*",
+                "*://newdailyhealth.co.kr/*",
+                "*://www.newdailyhealth.co.kr/*",
+                "*://daejonilbo.com/*",
+                "*://www.daejonilbo.com/*",
+                "*://chungnamilbo.co.kr/*",
+                "*://www.chungnamilbo.co.kr/*",
+                "*://incheonilbo.com/*",
+                "*://www.incheonilbo.com/*",
+                "*://ggilbo.com/*",
+                "*://www.ggilbo.com/*",
+                "*://bloter.net/*",
+                "*://www.bloter.net/*",
+                "*://sportsseoul.com/*",
+                "*://www.sportsseoul.com/*",
+                "*://nbnbiz.co.kr/*",
+                "*://www.nbnbiz.co.kr/*",
+                "*://enetnews.co.kr/*",
+                "*://www.enetnews.co.kr/*",
+                "*://newsnjoy.or.kr/*",
+                "*://mediaus.co.kr/*",
+                "*://www.mediaus.co.kr/*",
+                "*://ziksir.com/*",
+                "*://www.ziksir.com/*",
+                "*://daily.hankooki.com/*",
+                "*://ccdailynews.com/*",
+                "*://www.ccdailynews.com/*",
+                "*://topstarnews.net/*",
+                "*://www.topstarnews.net/*",
+                "*://spotvnews.co.kr/*",
+                "*://www.spotvnews.co.kr/*",
+                "*://foodnews.co.kr/*",
+                "*://www.foodnews.co.kr/*",
+                "*://hankooki.com/*",
+                "*://www.hankooki.com/*",
+                "*://spochoo.com/*",
+                "*://www.spochoo.com/*",
+                "*://digitaltoday.co.kr/*",
+                "*://www.digitaltoday.co.kr/*",
+                "*://orbi.kr/*",
+                "*://weekly.chosun.com/*",
+                "*://nzkoreapost.com/*",
+                "*://www.nzkoreapost.com/*",
+                "*://pinpointnews.co.kr/*",
+                "*://www.pinpointnews.co.kr/*",
+                "*://huffingtonpost.kr/*",
+                "*://eroun.net/*",
+                "*://www.eroun.net/*",
+                "*://cnet.co.kr/*",
+                "*://www.cnet.co.kr/*",
+                "*://hogangnono.com/*",
+                "*://www.hogangnono.com/*",
+                "*://ppomppu.co.kr/*",
+                "*://www.ppomppu.co.kr/*",
+                "*://interfootball.co.kr/*",
+                "*://www.interfootball.co.kr/*",
+                "*://police112.co.kr/*",
+                "*://www.police112.co.kr/*",
+                "*://dpg.danawa.com/*",
+                "*://m.danawa.com/*",
+                "*://kimpga.com/*",
+                "*://www.kimpga.com/*",
+                "*://youthassembly.kr/*",
+                "*://algumon.com/*",
+                "*://www.algumon.com/*",
+                "*://dailysecu.com/*",
+                "*://www.dailysecu.com/*",
+                "*://hankyung.com/*",
+                "*://www.hankyung.com/*",
+                "*://m.etnews.com/*",
+                "*://hani.co.kr/*",
+                "*://www.hani.co.kr/*",
+                "*://hankookilbo.com/*",
+                "*://www.hankookilbo.com/*",
+                "*://newspim.com/*",
+                "*://www.newspim.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3431.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://acmicpc.net/*",
+                "*://www.acmicpc.net/*",
+                "*://www.auction.co.kr/*",
+                "*://m.11st.co.kr/*",
+                "*://todaysppc.com/*",
+                "*://www.todaysppc.com/*",
+                "*://gmarket.co.kr/*",
+                "*://www.gmarket.co.kr/*",
+                "*://kpenews.com/*",
+                "*://www.kpenews.com/*",
+                "*://m.diningcode.com/*",
+                "*://insight.co.kr/*",
+                "*://www.insight.co.kr/*",
+                "*://cgv.co.kr/*",
+                "*://www.cgv.co.kr/*",
+                "*://m.inven.co.kr/*",
+                "*://tipsandtrickskorea.com/*",
+                "*://www.tipsandtrickskorea.com/*",
+                "*://gamemeca.com/*",
+                "*://www.gamemeca.com/*",
+                "*://yeongnam.com/*",
+                "*://www.yeongnam.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3432.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://search.naver.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3433.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://wadiz.kr/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3434.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://wadiz.kr/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3435.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://m.humoruniv.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3436.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://ppss.kr/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3437.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://m.humoruniv.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3438.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://web.humoruniv.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3439.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://m.humoruniv.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3440.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://game.naver.com/*",
+                "*://beautynury.com/*",
+                "*://www.beautynury.com/*",
+                "*://kwnews.co.kr/*",
+                "*://www.kwnews.co.kr/*",
+                "*://kyeonggi.com/*",
+                "*://www.kyeonggi.com/*",
+                "*://jjan.kr/*",
+                "*://www.naver.com/*",
+                "*://koreatimes.net/*",
+                "*://www.koreatimes.net/*",
+                "*://r114.com/*",
+                "*://www.r114.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3441.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://m.tenbizt.com/*",
+                "*://ruliweb.com/*",
+                "*://www.ruliweb.com/*",
+                "*://tvreport.co.kr/*",
+                "*://www.tvreport.co.kr/*",
+                "*://ddengle.com/*",
+                "*://www.ddengle.com/*",
+                "*://xportsnews.com/*",
+                "*://www.xportsnews.com/*",
+                "*://woman.donga.com/*",
+                "*://thisisgame.com/*",
+                "*://www.thisisgame.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3442.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://sori114.com/*",
+                "*://www.sori114.com/*",
+                "*://pervsi.com/*",
+                "*://www.pervsi.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3443.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://m.humoruniv.com/*",
+                "*://meeco.kr/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3444.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://torrentreel50.site/*",
+                "*://torrentreel51.site/*",
+                "*://torrentreel52.site/*",
+                "*://torrentreel53.site/*",
+                "*://torrentreel54.site/*",
+                "*://torrentreel55.site/*",
+                "*://torrentreel56.site/*",
+                "*://torrentreel57.site/*",
+                "*://torrentreel58.site/*",
+                "*://torrentreel59.site/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3445.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://tvchak61.com/*",
+                "*://www.tvchak61.com/*",
+                "*://tvchak62.com/*",
+                "*://www.tvchak62.com/*",
+                "*://tvchak63.com/*",
+                "*://www.tvchak63.com/*",
+                "*://tvchak64.com/*",
+                "*://www.tvchak64.com/*",
+                "*://tvchak65.com/*",
+                "*://www.tvchak65.com/*",
+                "*://tvchak66.com/*",
+                "*://www.tvchak66.com/*",
+                "*://tvchak67.com/*",
+                "*://www.tvchak67.com/*",
+                "*://tvchak68.com/*",
+                "*://www.tvchak68.com/*",
+                "*://tvchak69.com/*",
+                "*://www.tvchak69.com/*",
+                "*://tvchak70.com/*",
+                "*://www.tvchak70.com/*",
+                "*://tvchak71.com/*",
+                "*://www.tvchak71.com/*",
+                "*://tvchak72.com/*",
+                "*://www.tvchak72.com/*",
+                "*://tvchak73.com/*",
+                "*://www.tvchak73.com/*",
+                "*://tvchak74.com/*",
+                "*://www.tvchak74.com/*",
+                "*://tvchak75.com/*",
+                "*://www.tvchak75.com/*",
+                "*://tvchak76.com/*",
+                "*://www.tvchak76.com/*",
+                "*://tvchak77.com/*",
+                "*://www.tvchak77.com/*",
+                "*://tvchak78.com/*",
+                "*://www.tvchak78.com/*",
+                "*://tvchak79.com/*",
+                "*://www.tvchak79.com/*",
+                "*://tvchak80.com/*",
+                "*://www.tvchak80.com/*",
+                "*://tvchak81.com/*",
+                "*://www.tvchak81.com/*",
+                "*://tvchak82.com/*",
+                "*://www.tvchak82.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3446.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://tvchak61.com/*",
+                "*://www.tvchak61.com/*",
+                "*://tvchak62.com/*",
+                "*://www.tvchak62.com/*",
+                "*://tvchak63.com/*",
+                "*://www.tvchak63.com/*",
+                "*://tvchak64.com/*",
+                "*://www.tvchak64.com/*",
+                "*://tvchak65.com/*",
+                "*://www.tvchak65.com/*",
+                "*://tvchak66.com/*",
+                "*://www.tvchak66.com/*",
+                "*://tvchak67.com/*",
+                "*://www.tvchak67.com/*",
+                "*://tvchak68.com/*",
+                "*://www.tvchak68.com/*",
+                "*://tvchak69.com/*",
+                "*://www.tvchak69.com/*",
+                "*://tvchak70.com/*",
+                "*://www.tvchak70.com/*",
+                "*://tvchak71.com/*",
+                "*://www.tvchak71.com/*",
+                "*://tvchak72.com/*",
+                "*://www.tvchak72.com/*",
+                "*://tvchak73.com/*",
+                "*://www.tvchak73.com/*",
+                "*://tvchak74.com/*",
+                "*://www.tvchak74.com/*",
+                "*://tvchak75.com/*",
+                "*://www.tvchak75.com/*",
+                "*://tvchak76.com/*",
+                "*://www.tvchak76.com/*",
+                "*://tvchak77.com/*",
+                "*://www.tvchak77.com/*",
+                "*://tvchak78.com/*",
+                "*://www.tvchak78.com/*",
+                "*://tvchak79.com/*",
+                "*://www.tvchak79.com/*",
+                "*://tvchak80.com/*",
+                "*://www.tvchak80.com/*",
+                "*://tvchak81.com/*",
+                "*://www.tvchak81.com/*",
+                "*://tvchak82.com/*",
+                "*://www.tvchak82.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3447.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://torrentsee188.com/*",
+                "*://www.torrentsee188.com/*",
+                "*://torrentsee189.com/*",
+                "*://www.torrentsee189.com/*",
+                "*://torrentsee190.com/*",
+                "*://www.torrentsee190.com/*",
+                "*://torrentsee191.com/*",
+                "*://www.torrentsee191.com/*",
+                "*://torrentsee192.com/*",
+                "*://www.torrentsee192.com/*",
+                "*://torrentsee193.com/*",
+                "*://www.torrentsee193.com/*",
+                "*://torrentsee194.com/*",
+                "*://www.torrentsee194.com/*",
+                "*://torrentsee196.com/*",
+                "*://www.torrentsee196.com/*",
+                "*://torrentsee197.com/*",
+                "*://www.torrentsee197.com/*",
+                "*://torrentsee198.com/*",
+                "*://www.torrentsee198.com/*",
+                "*://torrentsee199.com/*",
+                "*://www.torrentsee199.com/*",
+                "*://torrentsee200.com/*",
+                "*://www.torrentsee200.com/*",
+                "*://torrentsee201.com/*",
+                "*://www.torrentsee201.com/*",
+                "*://torrentsee202.com/*",
+                "*://www.torrentsee202.com/*",
+                "*://torrentsee203.com/*",
+                "*://www.torrentsee203.com/*",
+                "*://torrentsee204.com/*",
+                "*://www.torrentsee204.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3448.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://torrentsee188.com/*",
+                "*://www.torrentsee188.com/*",
+                "*://torrentsee189.com/*",
+                "*://www.torrentsee189.com/*",
+                "*://torrentsee190.com/*",
+                "*://www.torrentsee190.com/*",
+                "*://torrentsee191.com/*",
+                "*://www.torrentsee191.com/*",
+                "*://torrentsee192.com/*",
+                "*://www.torrentsee192.com/*",
+                "*://torrentsee193.com/*",
+                "*://www.torrentsee193.com/*",
+                "*://torrentsee194.com/*",
+                "*://www.torrentsee194.com/*",
+                "*://torrentsee196.com/*",
+                "*://www.torrentsee196.com/*",
+                "*://torrentsee197.com/*",
+                "*://www.torrentsee197.com/*",
+                "*://torrentsee198.com/*",
+                "*://www.torrentsee198.com/*",
+                "*://torrentsee199.com/*",
+                "*://www.torrentsee199.com/*",
+                "*://torrentsee200.com/*",
+                "*://www.torrentsee200.com/*",
+                "*://torrentsee201.com/*",
+                "*://www.torrentsee201.com/*",
+                "*://torrentsee202.com/*",
+                "*://www.torrentsee202.com/*",
+                "*://torrentsee203.com/*",
+                "*://www.torrentsee203.com/*",
+                "*://torrentsee204.com/*",
+                "*://www.torrentsee204.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3449.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://gall.dcinside.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3450.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://mlbpark.donga.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3451.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://marupost.mycafe24.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3452.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://wadiz.kr/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3453.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://acmicpc.net/*",
+                "*://www.acmicpc.net/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3454.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://torrentsee188.com/*",
+                "*://www.torrentsee188.com/*",
+                "*://torrentsee189.com/*",
+                "*://www.torrentsee189.com/*",
+                "*://torrentsee190.com/*",
+                "*://www.torrentsee190.com/*",
+                "*://torrentsee191.com/*",
+                "*://www.torrentsee191.com/*",
+                "*://torrentsee192.com/*",
+                "*://www.torrentsee192.com/*",
+                "*://torrentsee193.com/*",
+                "*://www.torrentsee193.com/*",
+                "*://torrentsee194.com/*",
+                "*://www.torrentsee194.com/*",
+                "*://torrentsee196.com/*",
+                "*://www.torrentsee196.com/*",
+                "*://torrentsee197.com/*",
+                "*://www.torrentsee197.com/*",
+                "*://torrentsee198.com/*",
+                "*://www.torrentsee198.com/*",
+                "*://torrentsee199.com/*",
+                "*://www.torrentsee199.com/*",
+                "*://torrentsee200.com/*",
+                "*://www.torrentsee200.com/*",
+                "*://torrentsee201.com/*",
+                "*://www.torrentsee201.com/*",
+                "*://torrentsee202.com/*",
+                "*://www.torrentsee202.com/*",
+                "*://torrentsee203.com/*",
+                "*://www.torrentsee203.com/*",
+                "*://torrentsee204.com/*",
+                "*://www.torrentsee204.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3455.js"
             ]
         },
         {

@@ -18,5 +18,8 @@ chrome.storage.local.get(mudfish_adclean_g_conf_4a7176e0cdeb77ec226b77d391bf0d69
       mudfish_adclean_4a7176e0cdeb77ec226b77d391bf0d69();
     });
     observer.observe(document, { childList: true, subtree: true });
+    window.addEventListener("load", (event) => {
+      mudfish_adclean_4a7176e0cdeb77ec226b77d391bf0d69();
+    });
   }
 });
