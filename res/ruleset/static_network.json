@@ -11156,19 +11156,6 @@
         }
     },
     {
-        "id": 2744,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "zzapflix.tv"
-            ],
-            "regexFilter": "\\/data\\/zzapstream\\/[0-9]+_[A-z0-9]+\\.gif"
-        }
-    },
-    {
         "id": 2750,
         "priority": 1,
         "action": {
@@ -13184,49 +13171,6 @@
         }
     },
     {
-        "id": 3401,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "singingdalong.blogspot.com",
-                "goodgag.net",
-                "bera.world",
-                "sellas.ink",
-                "hunigo.com",
-                "op.gg",
-                "windowsforum.kr",
-                "iteastory.com",
-                "snskeyboard.com",
-                "rdsong.com",
-                "mongri.net",
-                "meeco.kr",
-                "poketory.com",
-                "youthassembly.kr",
-                "kr.jugomobile.com",
-                "1412.live",
-                "pyrasis.com",
-                "oceansabyss.com",
-                "yongtj.com",
-                "dora-guide.com",
-                "tailstar.net",
-                "creativestudio.kr",
-                "gamejay.net",
-                "mksports.co.kr",
-                "sisamagazine.co.kr",
-                "dreamrail.co.kr",
-                "tistory.com",
-                "gukjenews.com",
-                "issuelink.co.kr",
-                "webtool.cusis.net",
-                "koreaminecraft.net"
-            ],
-            "urlFilter": "||fundingchoicesmessages.google.com^"
-        }
-    },
-    {
         "id": 3402,
         "priority": 1,
         "action": {
@@ -13429,20 +13373,6 @@
         }
     },
     {
-        "id": 3427,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "naver.com"
-            ],
-            "isUrlFilterCaseSensitive": true,
-            "regexFilter": "^https:\\/\\/nng-phinf\\.pstatic\\.net\\/.+\\/[%A-z0-9\\.]+([0-9]+(x|X)[0-9]+)?000000_naverads\\."
-        }
-    },
-    {
         "id": 3428,
         "priority": 1,
         "action": {
@@ -13470,6 +13400,332 @@
         },
         "condition": {
             "urlFilter": "||cdn2.ppomppu.co.kr/zboard/data*/banner/"
+        }
+    },
+    {
+        "id": 3457,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||smrmembers-smr.smartmediarep.com^"
+        }
+    },
+    {
+        "id": 3459,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||arm.c.appier.net^"
+        }
+    },
+    {
+        "id": 3460,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||ad.mediamixer.co.kr^"
+        }
+    },
+    {
+        "id": 3461,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||nsmartad.com^"
+        }
+    },
+    {
+        "id": 3464,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||youtu.co/wp-content/plugins/advanced-ads"
+        }
+    },
+    {
+        "id": 3465,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||dfast.kr/wp-content/plugins/advanced-ads"
+        }
+    },
+    {
+        "id": 3466,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||mememedia.co.kr/wp-content/plugins/advanced-ads"
+        }
+    },
+    {
+        "id": 3467,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||cdn-img.viewus.co.kr/common/ad/"
+        }
+    },
+    {
+        "id": 3468,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||comm-api.game.naver.com/nng_main/*/cpa/adList"
+        }
+    },
+    {
+        "id": 3469,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "naver.com"
+            ],
+            "isUrlFilterCaseSensitive": true,
+            "regexFilter": "^https:\\/\\/nng-phinf\\.pstatic\\.net\\/.+\\/[A-z0-9-.]+\\.[A-Z]+\\/[0-9]+x[0-9]+[A-z0-9%_]+_naverads\\."
+        }
+    },
+    {
+        "id": 3470,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||mobilitytv.co.kr/wp-content/plugins/advanced-ad"
+        }
+    },
+    {
+        "id": 3471,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "sedaily.com"
+            ],
+            "regexFilter": "^https:\\/\\/img\\.sedaily\\.com\\/\\/?Html\\/Banner\\/"
+        }
+    },
+    {
+        "id": 3472,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||cdn.onnetwork.tv/js/*/embedOptAd.min.js"
+        }
+    },
+    {
+        "id": 3473,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||richgo.ai/api/ads"
+        }
+    },
+    {
+        "id": 3474,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||wiizmkrstorage.blob.core.windows.net/wiadcontainer/"
+        }
+    },
+    {
+        "id": 3475,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "resourceTypes": [
+                "main_frame"
+            ],
+            "urlFilter": "||go.bandisoft.com/coupang.bandizip|"
+        }
+    },
+    {
+        "id": 3476,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||busan.com/nas/wcms/public/pc/images/new/bluebanner.png"
+        }
+    },
+    {
+        "id": 3477,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "busan.com"
+            ],
+            "regexFilter": "^https?:\\/\\/www\\.busan\\.com\\/nas\\/wcms\\/public\\/pc\\/images\\/new\\/[0-9]+[a-z]+([0-9]?|[a-z]+_[a-z]+_[a-z]+)\\."
+        }
+    },
+    {
+        "id": 3478,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||coinreaders.com/data/coinreaders_com/upload/banner/"
+        }
+    },
+    {
+        "id": 3479,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||healtho.co.kr/biz_files/sub_news/"
+        }
+    },
+    {
+        "id": 3480,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||healtho.co.kr/biz_files/main_right/"
+        }
+    },
+    {
+        "id": 3481,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "zzzz.lol"
+            ],
+            "regexFilter": "\\/data\\/zzapstream\\/[0-9]+_[A-z0-9]+\\.gif"
+        }
+    },
+    {
+        "id": 3527,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "||aitimes.com/bannerpop/uploads/image/1699431559523961142.png"
+        }
+    },
+    {
+        "id": 3529,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "||www.besteleven.com/bannerpop/uploads/image/"
+        }
+    },
+    {
+        "id": 3532,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "m.sports.naver.com"
+            ],
+            "urlFilter": "||api-gw.sports.naver.com/cms/contents/adContents/"
+        }
+    },
+    {
+        "id": 3533,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "m.sports.naver.com"
+            ],
+            "urlFilter": "||api-gw.sports.naver.com/cms/contents/adContents/GENERAL"
+        }
+    },
+    {
+        "id": 3541,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "svrforum.com",
+                "singingdalong.blogspot.com",
+                "goodgag.net",
+                "bera.world",
+                "sellas.ink",
+                "hunigo.com",
+                "op.gg",
+                "windowsforum.kr",
+                "iteastory.com",
+                "snskeyboard.com",
+                "rdsong.com",
+                "mongri.net",
+                "meeco.kr",
+                "poketory.com",
+                "youthassembly.kr",
+                "kr.jugomobile.com",
+                "1412.live",
+                "pyrasis.com",
+                "oceansabyss.com",
+                "yongtj.com",
+                "dora-guide.com",
+                "tailstar.net",
+                "creativestudio.kr",
+                "gamejay.net",
+                "mksports.co.kr",
+                "sisamagazine.co.kr",
+                "dreamrail.co.kr",
+                "tistory.com",
+                "gukjenews.com",
+                "issuelink.co.kr",
+                "webtool.cusis.net",
+                "koreaminecraft.net"
+            ],
+            "urlFilter": "||fundingchoicesmessages.google.com^"
         }
     }
 ]
