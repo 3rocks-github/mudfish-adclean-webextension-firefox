@@ -11406,32 +11406,6 @@
         }
     },
     {
-        "id": 2925,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "youtube.com",
-                "tpc.googlesyndication.com"
-            ],
-            "isUrlFilterCaseSensitive": false,
-            "regexFilter": ".*((doubleclick\\.net)|(buysellads)|(pagead)|(ads)|(api\\/stats\\/qoe)|(google\\.com\\/log)|(ad_break)|(\\/v1\\/log_event)).*",
-            "resourceTypes": [
-                "main_frame",
-                "sub_frame",
-                "script",
-                "stylesheet",
-                "image",
-                "other",
-                "object",
-                "media",
-                "xmlhttprequest"
-            ]
-        }
-    },
-    {
         "id": 2926,
         "priority": 1,
         "action": {
