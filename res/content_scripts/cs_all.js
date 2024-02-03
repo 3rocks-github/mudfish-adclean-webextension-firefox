@@ -2155,3 +2155,29 @@ chrome.storage.local.get(mudfish_adclean_g_conf_5c311976776f8fdcef742dce354b1d65
     });
   }
 });
+
+
+function mudfish_adclean_59dc99403469d8382e312d5d8965c6dc() {
+  try {
+    Sizzle(`img[src*="//wwwimageup.angle777899.com/other/atoona/"]`).forEach(element => {
+      element.style.display = "none";
+    });
+  } catch (error) {
+    console.log('[ERROR] mudfish_adclean rule error: ' + error);
+  }
+}
+
+var mudfish_adclean_g_conf_59dc99403469d8382e312d5d8965c6dc = {
+  mudfish_adclean_filter_on: true
+};
+chrome.storage.local.get(mudfish_adclean_g_conf_59dc99403469d8382e312d5d8965c6dc, function (items) {
+  if (mudfish_adclean_g_conf_59dc99403469d8382e312d5d8965c6dc.mudfish_adclean_filter_on) {
+    const observer = new MutationObserver(() => {
+      mudfish_adclean_59dc99403469d8382e312d5d8965c6dc();
+    });
+    observer.observe(document, { childList: true, subtree: true });
+    window.addEventListener("load", (event) => {
+      mudfish_adclean_59dc99403469d8382e312d5d8965c6dc();
+    });
+  }
+});

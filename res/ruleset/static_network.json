@@ -140,16 +140,6 @@
         }
     },
     {
-        "id": 16,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||adplatform-cdn.baemin.com^"
-        }
-    },
-    {
         "id": 17,
         "priority": 1,
         "action": {
@@ -2976,16 +2966,6 @@
         }
     },
     {
-        "id": 376,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "/data/banner.json?"
-        }
-    },
-    {
         "id": 377,
         "priority": 1,
         "action": {
@@ -3371,16 +3351,6 @@
         }
     },
     {
-        "id": 416,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||ssl.pstatic.net/static/comic/images/txt_ads_v"
-        }
-    },
-    {
         "id": 417,
         "priority": 1,
         "action": {
@@ -3676,16 +3646,6 @@
         }
     },
     {
-        "id": 445,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||toptrend.blog/wp-content/plugins/advanced-ads-pro/"
-        }
-    },
-    {
         "id": 446,
         "priority": 1,
         "action": {
@@ -3749,16 +3709,6 @@
                 "m-sooriya.tistory.com"
             ],
             "urlFilter": "||ifh.cc^"
-        }
-    },
-    {
-        "id": 452,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||wjdqhzld.com/wp-content/plugins/advanced-ads-pro/"
         }
     },
     {
@@ -4814,16 +4764,6 @@
         },
         "condition": {
             "urlFilter": "||api.wikitree.co.kr/api/v1/getArticles.php?*&type=11&"
-        }
-    },
-    {
-        "id": 559,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||blockmedia.co.kr/wp-content/plugins/advanced-ads/"
         }
     },
     {
@@ -7291,19 +7231,6 @@
         }
     },
     {
-        "id": 817,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "ohlitv.com"
-            ],
-            "regexFilter": "^https:\\/\\/ohlitv\\.com\\/img\\/[0-9]{4}\\/[a-z]+\\.gif$"
-        }
-    },
-    {
         "id": 818,
         "priority": 1,
         "action": {
@@ -7337,16 +7264,6 @@
                 "image"
             ],
             "urlFilter": "||image-comic.pstatic.net/webtoon/*/*/contents_banner_"
-        }
-    },
-    {
-        "id": 821,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||dpg.danawa.com/news/powerLink|"
         }
     },
     {
@@ -8482,16 +8399,6 @@
         }
     },
     {
-        "id": 945,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||img.hani.co.kr/section-image/*/mobile/image/icon/btn_ADclose.png"
-        }
-    },
-    {
         "id": 946,
         "priority": 1,
         "action": {
@@ -8835,16 +8742,6 @@
         }
     },
     {
-        "id": 983,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||hani.co.kr/section-homepage/svc3/js/navtivead.js"
-        }
-    },
-    {
         "id": 984,
         "priority": 1,
         "action": {
@@ -8971,19 +8868,6 @@
         }
     },
     {
-        "id": 997,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "resourceTypes": [
-                "main_frame"
-            ],
-            "urlFilter": "||koreaminecraft.net/serverad/"
-        }
-    },
-    {
         "id": 998,
         "priority": 1,
         "action": {
@@ -9094,16 +8978,6 @@
         },
         "condition": {
             "urlFilter": "||shop-redapi.daum.net/red-apigate/daumtop/"
-        }
-    },
-    {
-        "id": 1009,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||arca.live/api/pagead"
         }
     },
     {
@@ -9387,16 +9261,6 @@
         }
     },
     {
-        "id": 1042,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "regexFilter": "^https:\\/\\/ohli365\\.[a-z]+\\/data\\/apms\\/background\\/"
-        }
-    },
-    {
         "id": 1044,
         "priority": 1,
         "action": {
@@ -9497,16 +9361,6 @@
         }
     },
     {
-        "id": 1054,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "regexFilter": "^https:\\/\\/ohli24\\.[a-z]+\\/img\\/[0-9]{4}\\/[A-z0-9]+\\.[a-z]{3}$"
-        }
-    },
-    {
         "id": 1055,
         "priority": 1,
         "action": {
@@ -9553,24 +9407,6 @@
         }
     },
     {
-        "id": 1059,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "yatv.net",
-                "yadongtube.net",
-                "yadongkorea.red",
-                "yadongstar.net",
-                "yadongwang.org",
-                "kimyadong.net"
-            ],
-            "urlFilter": "||jusotop.com/b/"
-        }
-    },
-    {
         "id": 1062,
         "priority": 1,
         "action": {
@@ -9598,16 +9434,6 @@
         },
         "condition": {
             "regexFilter": "^https:\\/\\/manatoki[0-9]+\\.net\\/tokinbtoki\\/"
-        }
-    },
-    {
-        "id": 1065,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "regexFilter": "^https:\\/\\/[a-z0-9\\.]*torrentdia[0-9]+\\.com\\/data\\/to_list\\/"
         }
     },
     {
@@ -9701,16 +9527,6 @@
         },
         "condition": {
             "regexFilter": "^https:\\/\\/linkrand[0-9]+\\.com\\/data\\/file\\/site_2\\/"
-        }
-    },
-    {
-        "id": 1086,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "regexFilter": "^https:\\/\\/wtbox[0-9]+\\.xyz\\/data\\/apms\\/background\\/.+\\.gif$"
         }
     },
     {
@@ -9997,16 +9813,6 @@
         },
         "condition": {
             "regexFilter": "^https:\\/\\/namedtoon[0-9]+\\.com\\/Uploads\\/\\/images\\/[0-9]{4}-[0-9]{2}-[0-9]{2}\\/[a-z0-9]{13}"
-        }
-    },
-    {
-        "id": 1122,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "regexFilter": "^https:\\/\\/mkmk[0-9]+\\.link\\/data\\/file\\/banner\\/"
         }
     },
     {
@@ -10980,16 +10786,6 @@
         }
     },
     {
-        "id": 2699,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||m2.nateimg.co.kr/cms/"
-        }
-    },
-    {
         "id": 2702,
         "priority": 1,
         "action": {
@@ -11133,16 +10929,6 @@
         },
         "condition": {
             "urlFilter": "||economist.co.kr/data/ecn/upload/save/popup/"
-        }
-    },
-    {
-        "id": 2742,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "regexFilter": "^https:\\/\\/viewtorrent[0-9]+\\.com\\/data\\/file\\/[0-9]+_[0-9]+\\/"
         }
     },
     {
@@ -12019,32 +11805,6 @@
         }
     },
     {
-        "id": 3083,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "19size.me"
-            ],
-            "urlFilter": "||i.ibb.co^"
-        }
-    },
-    {
-        "id": 3084,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "19size.me"
-            ],
-            "urlFilter": "||i.imgur.com^"
-        }
-    },
-    {
         "id": 3087,
         "priority": 1,
         "action": {
@@ -12055,236 +11815,6 @@
         }
     },
     {
-        "id": 3088,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "torrentqq270.com",
-                "torrentqq271.com",
-                "torrentqq272.com",
-                "torrentqq273.com",
-                "torrentqq274.com",
-                "torrentqq275.com",
-                "torrentqq276.com",
-                "torrentqq277.com",
-                "torrentqq278.com",
-                "torrentqq279.com",
-                "torrentqq280.com",
-                "torrentqq281.com",
-                "torrentqq282.com",
-                "torrentqq283.com",
-                "torrentqq284.com"
-            ],
-            "urlFilter": "||i.imgur.com^"
-        }
-    },
-    {
-        "id": 3089,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "torrenttip84.com",
-                "torrenttip85.com",
-                "torrenttip86.com",
-                "torrenttip87.com",
-                "torrenttip88.com",
-                "torrenttip89.com",
-                "torrenttip90.com",
-                "torrenttip91.com",
-                "torrenttip92.com",
-                "torrenttip93.com",
-                "torrenttip94.com",
-                "torrenttip95.com",
-                "torrenttip96.com"
-            ],
-            "urlFilter": "||filesbest.xyz/uploadfile/images/*.gif"
-        }
-    },
-    {
-        "id": 3090,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "torrentwhy78.xyz",
-                "torrentwhy79.xyz",
-                "torrentwhy80.xyz",
-                "torrentwhy81.xyz",
-                "torrentwhy82.xyz",
-                "torrentwhy83.xyz",
-                "torrentwhy84.xyz",
-                "torrentwhy85.xyz",
-                "torrentwhy86.xyz",
-                "torrentwhy87.xyz",
-                "torrentwhy88.xyz",
-                "torrentwhy89.xyz"
-            ],
-            "urlFilter": "||i.imgur.com^"
-        }
-    },
-    {
-        "id": 3091,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "tvzota70.com",
-                "tvzota71.com",
-                "tvzota72.com",
-                "tvzota73.com",
-                "tvzota74.com",
-                "tvzota75.com",
-                "tvzota76.com",
-                "tvzota77.com",
-                "tvzota78.com",
-                "tvzota79.com",
-                "tvzota80.com"
-            ],
-            "urlFilter": "||imgbox.com^"
-        }
-    },
-    {
-        "id": 3092,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "tkr246.com",
-                "tkr247.com",
-                "tkr248.com",
-                "tkr249.com",
-                "tkr250.com",
-                "tkr251.com",
-                "tkr252.com",
-                "tkr253.com",
-                "tkr254.com",
-                "tkr255.com",
-                "tkr256.com",
-                "tkr257.com"
-            ],
-            "urlFilter": "||imgsuperpower.com^"
-        }
-    },
-    {
-        "id": 3093,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "tkr246.com",
-                "tkr247.com",
-                "tkr248.com",
-                "tkr249.com",
-                "tkr250.com",
-                "tkr251.com",
-                "tkr252.com",
-                "tkr253.com",
-                "tkr254.com",
-                "tkr255.com",
-                "tkr256.com",
-                "tkr257.com"
-            ],
-            "urlFilter": "||blogger.googleusercontent.com/img/"
-        }
-    },
-    {
-        "id": 3094,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "tkr246.com",
-                "tkr247.com",
-                "tkr248.com",
-                "tkr249.com",
-                "tkr250.com",
-                "tkr251.com",
-                "tkr252.com",
-                "tkr253.com",
-                "tkr254.com",
-                "tkr255.com",
-                "tkr256.com",
-                "tkr257.com"
-            ],
-            "urlFilter": "||static.springbuilder.site/fs/userFiles-v2/"
-        }
-    },
-    {
-        "id": 3095,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "mingk16.com",
-                "mingk17.com",
-                "mingk18.com",
-                "mingk19.com",
-                "mingk20.com",
-                "mingk21.com",
-                "mingk22.com",
-                "mingk23.com",
-                "mingk24.com",
-                "mingk25.com",
-                "mingk26.com",
-                "mingk27.com",
-                "mingk28.com",
-                "mingk29.com",
-                "mingk30.com",
-                "mingk31.com",
-                "mingk32.com"
-            ],
-            "resourceTypes": [
-                "image"
-            ],
-            "urlFilter": "||media.tumblr.com^"
-        }
-    },
-    {
-        "id": 3096,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "wftoon93.com",
-                "wftoon94.com",
-                "wftoon95.com",
-                "wftoon96.com",
-                "wftoon97.com",
-                "wftoon98.com",
-                "wftoon99.com",
-                "wftoon100.com",
-                "wftoon101.com",
-                "wftoon102.com",
-                "wftoon103.com",
-                "wftoon104.com",
-                "wftoon105.com",
-                "wftoon106.com",
-                "wftoon107.com"
-            ],
-            "regexFilter": "^https:\\/\\/imgcloud[0-9]+\\.net\\/"
-        }
-    },
-    {
         "id": 3098,
         "priority": 1,
         "action": {
@@ -12292,256 +11822,6 @@
         },
         "condition": {
             "regexFilter": "^https:\\/\\/toonkor[0-9]+\\.com\\/images\\/[0-9a-z-]*[0-9]{3,}(x|X)[0-9]{2,}"
-        }
-    },
-    {
-        "id": 3099,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "fxfx192.com",
-                "fxfx193.com",
-                "fxfx194.com",
-                "fxfx195.com",
-                "fxfx196.com",
-                "fxfx197.com",
-                "fxfx198.com",
-                "fxfx199.com",
-                "fxfx200.com",
-                "fxfx201.com",
-                "fxfx202.com",
-                "fxfx203.com",
-                "fxfx204.com",
-                "fxfx205.com",
-                "fxfx206.com",
-                "fxfx207.com",
-                "fxfx208.com",
-                "fxfx209.com",
-                "fxfx210.com"
-            ],
-            "regexFilter": "^https:\\/\\/imgcloud[0-9]+\\.net\\/"
-        }
-    },
-    {
-        "id": 3100,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "wtwt201.com",
-                "wtwt202.com",
-                "wtwt203.com",
-                "wtwt204.com",
-                "wtwt205.com",
-                "wtwt206.com",
-                "wtwt207.com",
-                "wtwt208.com",
-                "wtwt209.com",
-                "wtwt210.com",
-                "wtwt211.com",
-                "wtwt212.com",
-                "wtwt213.com",
-                "wtwt214.com",
-                "wtwt215.com",
-                "wtwt216.com",
-                "wtwt217.com",
-                "wtwt218.com",
-                "wtwt219.com"
-            ],
-            "regexFilter": "^https:\\/\\/imgcloud[0-9]+\\.net\\/"
-        }
-    },
-    {
-        "id": 3101,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "torrentgram59.com",
-                "torrentgram60.com",
-                "torrentgram61.com",
-                "torrentgram62.com",
-                "torrentgram63.com",
-                "torrentgram64.com",
-                "torrentgram65.com",
-                "torrentgram66.com",
-                "torrentgram67.com",
-                "torrentgram68.com",
-                "torrentgram69.com",
-                "torrentgram70.com",
-                "torrentgram71.com",
-                "torrentgram72.com",
-                "torrentgram73.com",
-                "torrentgram74.com"
-            ],
-            "urlFilter": "||i.imgur.com^"
-        }
-    },
-    {
-        "id": 3102,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "ktxtorrent92.com",
-                "ktxtorrent93.com",
-                "ktxtorrent94.com",
-                "ktxtorrent95.com",
-                "ktxtorrent96.com",
-                "ktxtorrent97.com",
-                "ktxtorrent98.com",
-                "ktxtorrent99.com",
-                "ktxtorrent100.com",
-                "ktxtorrent101.com",
-                "ktxtorrent102.com",
-                "ktxtorrent103.com",
-                "ktxtorrent104.com",
-                "ktxtorrent105.com",
-                "ktxtorrent106.com"
-            ],
-            "urlFilter": "||imgbox.com^"
-        }
-    },
-    {
-        "id": 3103,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "ktxtorrent92.com",
-                "ktxtorrent93.com",
-                "ktxtorrent94.com",
-                "ktxtorrent95.com",
-                "ktxtorrent96.com",
-                "ktxtorrent97.com",
-                "ktxtorrent98.com",
-                "ktxtorrent99.com",
-                "ktxtorrent100.com",
-                "ktxtorrent101.com",
-                "ktxtorrent102.com",
-                "ktxtorrent103.com",
-                "ktxtorrent104.com",
-                "ktxtorrent105.com",
-                "ktxtorrent106.com"
-            ],
-            "urlFilter": "||static.filesbest.xyz^"
-        }
-    },
-    {
-        "id": 3104,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "torrentrj109.com",
-                "torrentrj110.com",
-                "torrentrj111.com",
-                "torrentrj112.com",
-                "torrentrj113.com",
-                "torrentrj114.com",
-                "torrentrj115.com",
-                "torrentrj116.com",
-                "torrentrj117.com",
-                "torrentrj118.com",
-                "torrentrj119.com",
-                "torrentrj120.com",
-                "torrentrj121.com",
-                "torrentrj122.com",
-                "torrentrj123.com",
-                "torrentrj124.com"
-            ],
-            "urlFilter": "||static.filesbest.xyz^"
-        }
-    },
-    {
-        "id": 3105,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "bobaelink53.xyz",
-                "bobaelink54.xyz",
-                "bobaelink55.xyz",
-                "bobaelink56.xyz",
-                "bobaelink57.xyz",
-                "bobaelink58.xyz",
-                "bobaelink59.xyz",
-                "bobaelink60.xyz",
-                "bobaelink61.xyz",
-                "bobaelink62.xyz",
-                "bobaelink63.xyz",
-                "bobaelink64.xyz"
-            ],
-            "urlFilter": "||i.imgur.com^"
-        }
-    },
-    {
-        "id": 3106,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "hdhd264.net",
-                "hdhd265.net",
-                "hdhd266.net",
-                "hdhd267.net",
-                "hdhd268.net",
-                "hdhd269.net",
-                "hdhd270.net",
-                "hdhd271.net",
-                "hdhd272.net",
-                "hdhd273.net",
-                "hdhd274.net",
-                "hdhd275.net",
-                "hdhd276.net",
-                "hdhd277.net",
-                "hdhd278.net"
-            ],
-            "urlFilter": "||imgsuperpower.com^"
-        }
-    },
-    {
-        "id": 3107,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "hdhd264.net",
-                "hdhd265.net",
-                "hdhd266.net",
-                "hdhd267.net",
-                "hdhd268.net",
-                "hdhd269.net",
-                "hdhd270.net",
-                "hdhd271.net",
-                "hdhd272.net",
-                "hdhd273.net",
-                "hdhd274.net",
-                "hdhd275.net",
-                "hdhd276.net",
-                "hdhd277.net",
-                "hdhd278.net"
-            ],
-            "urlFilter": "||blogger.googleusercontent.com^"
         }
     },
     {
@@ -13052,79 +12332,6 @@
         }
     },
     {
-        "id": 3357,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "kktv365.com",
-                "kktv366.com",
-                "kktv367.com",
-                "kktv368.com",
-                "kktv369.com",
-                "kktv370.com",
-                "kktv371.com",
-                "kktv372.com",
-                "kktv373.com",
-                "kktv374.com",
-                "kktv375.com",
-                "kktv376.com"
-            ],
-            "regexFilter": "^https:\\/\\/cdn\\.kktv[0-9]+\\.com\\/data\\/editor\\/"
-        }
-    },
-    {
-        "id": 3358,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "kktv365.com",
-                "kktv366.com",
-                "kktv367.com",
-                "kktv368.com",
-                "kktv369.com",
-                "kktv370.com",
-                "kktv371.com",
-                "kktv372.com",
-                "kktv373.com",
-                "kktv374.com",
-                "kktv375.com",
-                "kktv376.com"
-            ],
-            "urlFilter": "||cdn.ksportscdn.com/data/editor/"
-        }
-    },
-    {
-        "id": 3359,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "wfwf291.com",
-                "wfwf292.com",
-                "wfwf293.com",
-                "wfwf294.com",
-                "wfwf295.com",
-                "wfwf296.com",
-                "wfwf297.com",
-                "wfwf298.com",
-                "wfwf299.com",
-                "wfwf300.com",
-                "wfwf301.com",
-                "wfwf302.com",
-                "wfwf303.com"
-            ],
-            "regexFilter": "^https:\\/\\/iabn[0-9]+\\.net\\/"
-        }
-    },
-    {
         "id": 3389,
         "priority": 1,
         "action": {
@@ -13241,16 +12448,6 @@
         },
         "condition": {
             "urlFilter": "||adfork.co.kr^"
-        }
-    },
-    {
-        "id": 3417,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||tenbizt.com/wp-content/plugins/advanced-ads"
         }
     },
     {
@@ -13417,36 +12614,6 @@
         }
     },
     {
-        "id": 3464,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||youtu.co/wp-content/plugins/advanced-ads"
-        }
-    },
-    {
-        "id": 3465,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||dfast.kr/wp-content/plugins/advanced-ads"
-        }
-    },
-    {
-        "id": 3466,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||mememedia.co.kr/wp-content/plugins/advanced-ads"
-        }
-    },
-    {
         "id": 3467,
         "priority": 1,
         "action": {
@@ -13464,20 +12631,6 @@
         },
         "condition": {
             "urlFilter": "||comm-api.game.naver.com/nng_main/*/cpa/adList"
-        }
-    },
-    {
-        "id": 3469,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "naver.com"
-            ],
-            "isUrlFilterCaseSensitive": true,
-            "regexFilter": "^https:\\/\\/nng-phinf\\.pstatic\\.net\\/.+\\/[A-z0-9-.]+\\.[A-Z]+\\/[0-9]+x[0-9]+[A-z0-9%_]+_naverads\\."
         }
     },
     {
@@ -13659,13 +12812,1490 @@
         }
     },
     {
-        "id": 3541,
+        "id": 3545,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||d1cykymlllue3h.cloudfront.net^"
+        }
+    },
+    {
+        "id": 3546,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||ad1.missyusa.com^"
+        }
+    },
+    {
+        "id": 3547,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||ads.motorgraph.com^"
+        }
+    },
+    {
+        "id": 3548,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||awd.spochak.com^"
+        }
+    },
+    {
+        "id": 3574,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||arca.live/external/callad|"
+        }
+    },
+    {
+        "id": 3575,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||humorpick.com/data/banner/"
+        }
+    },
+    {
+        "id": 3576,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||sportsw.kr/support/_updata/banner"
+        }
+    },
+    {
+        "id": 3577,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||dpg.danawa.com/news/ad/rest/"
+        }
+    },
+    {
+        "id": 3578,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||dpg.danawa.com/mobile/rest/ad/"
+        }
+    },
+    {
+        "id": 3579,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
             "initiatorDomains": [
+                "web.humoruniv.com"
+            ],
+            "urlFilter": "||cache.ggeal.com/banner/"
+        }
+    },
+    {
+        "id": 3580,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "news.tvchosun.com"
+            ],
+            "regexFilter": "^https?:\\/\\/img\\.tvchosun\\.com\\/upload_img\\/rnbImg\\/[0-9]+\\."
+        }
+    },
+    {
+        "id": 3581,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "game.naver.com"
+            ],
+            "regexFilter": "^https:\\/\\/nng-phinf\\.pstatic\\.net\\/.+\\/.+_naverads\\."
+        }
+    },
+    {
+        "id": 3582,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||file.kinolights.com/*/banner/"
+        }
+    },
+    {
+        "id": 3583,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||businesspost.co.kr/images/banner/"
+        }
+    },
+    {
+        "id": 3584,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||whosaeng.com/data/whosaeng_com/*banner/"
+        }
+    },
+    {
+        "id": 3585,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||whosaeng.com/data/m.whosaeng.com/mo_"
+        }
+    },
+    {
+        "id": 3586,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||m.enter.etoday.co.kr/images/ad/"
+        }
+    },
+    {
+        "id": 3587,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "chzzk.naver.com"
+            ],
+            "regexFilter": "^https:\\/\\/nng-phinf\\.pstatic\\.net\\/[A-z]+\\/[A-z0-9._-]+\\/Banner_[A-z0-9_-]+\\.[A-z]+$"
+        }
+    },
+    {
+        "id": 3588,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||tvdaily.co.kr/banner/"
+        }
+    },
+    {
+        "id": 3589,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||tvdaily.co.kr/ad/"
+        }
+    },
+    {
+        "id": 3590,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||dentalnews.or.kr/data/banner/"
+        }
+    },
+    {
+        "id": 3591,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "resourceTypes": [
+                "image"
+            ],
+            "urlFilter": "||m2.nateimg.co.kr/cms/*.gif|"
+        }
+    },
+    {
+        "id": 3592,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "etoland.co.kr"
+            ],
+            "regexFilter": "^https:\\/\\/www\\.etoland\\.co\\.kr\\/img\\/nasmedia\\/[0-9]+x[0-9]+_+"
+        }
+    },
+    {
+        "id": 3593,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "arca.live"
+            ],
+            "urlFilter": "||da.namu.la^"
+        }
+    },
+    {
+        "id": 3594,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "resourceTypes": [
+                "xmlhttprequest"
+            ],
+            "urlFilter": "||arca.live/api/*pagead?"
+        }
+    },
+    {
+        "id": 3595,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "m.sports.naver.com"
+            ],
+            "isUrlFilterCaseSensitive": true,
+            "regexFilter": "^https:\\/\\/sports-phinf\\.pstatic\\.net\\/[0-9]+_[0-9]+\\/[A-z0-9]+_[A-Z]+\\/(%[A-Z0-9]+)+_(%[A-Z0-9]+)+_",
+            "resourceTypes": [
+                "image"
+            ]
+        }
+    },
+    {
+        "id": 3596,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||nosearch.com/api/naver*Ad?channel="
+        }
+    },
+    {
+        "id": 3597,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||prod.danawa.com/info/ajax/getPlanBPlusProductList.ajax.php"
+        }
+    },
+    {
+        "id": 3598,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||prod.danawa.com/info/ajax/getPowerShopping.ajax.php"
+        }
+    },
+    {
+        "id": 3599,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "/wp-content/plugins/advanced-ads"
+        }
+    },
+    {
+        "id": 3600,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||ssl.pstatic.net/static*/comic/im*/txt_ads_v"
+        }
+    },
+    {
+        "id": 3601,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||dpg.danawa.com/*/powerLink|"
+        }
+    },
+    {
+        "id": 3602,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "ygy48.com",
+                "ygy49.com",
+                "ygy50.com",
+                "ygy51.com",
+                "ygy52.com",
+                "ygy53.com",
+                "ygy54.com",
+                "ygy55.com",
+                "ygy56.com",
+                "ygy57.com",
+                "ygy58.com",
+                "ygy59.com",
+                "ygy60.com",
+                "ygy61.com"
+            ],
+            "regexFilter": "^https:\\/\\/www\\.ygy[0-9]+\\.com\\/upload_files\\/banner\\/"
+        }
+    },
+    {
+        "id": 3603,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "ygy48.com",
+                "ygy49.com",
+                "ygy50.com",
+                "ygy51.com",
+                "ygy52.com",
+                "ygy53.com",
+                "ygy54.com",
+                "ygy55.com",
+                "ygy56.com",
+                "ygy57.com",
+                "ygy58.com",
+                "ygy59.com",
+                "ygy60.com",
+                "ygy61.com"
+            ],
+            "regexFilter": "^https:\\/\\/www\\.ygy[0-9]+\\.com\\/upload_files\\/popup\\/"
+        }
+    },
+    {
+        "id": 3604,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "linkssakda.com"
+            ],
+            "regexFilter": "^https:\\/\\/linkssakda\\.com\\/upload\\/images\\/[0-9]+\\."
+        }
+    },
+    {
+        "id": 3605,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "avguri.com"
+            ],
+            "urlFilter": "||i.imgur.com^"
+        }
+    },
+    {
+        "id": 3606,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||moeni.net/img/sp/"
+        }
+    },
+    {
+        "id": 3607,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||cdnbuzz.buzz//banner/"
+        }
+    },
+    {
+        "id": 3608,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/avjoa[0-9]+\\.com\\/wp-content\\/uploads\\/[0-9]+\\/[0-9]+\\/.+\\.gif$"
+        }
+    },
+    {
+        "id": 3609,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/www\\.ttking[0-9]+\\.me\\/ad\\/"
+        }
+    },
+    {
+        "id": 3610,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/nolgoga[0-9]+\\.com\\/data\\/.+\\.gif$"
+        }
+    },
+    {
+        "id": 3611,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||ohli24.com/img/"
+        }
+    },
+    {
+        "id": 3612,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "bontv53.com",
+                "bontv54.com",
+                "bontv55.com",
+                "bontv56.com",
+                "bontv57.com",
+                "bontv58.com",
+                "bontv59.com",
+                "bontv60.com",
+                "bontv61.com",
+                "bontv62.com",
+                "bontv63.com"
+            ],
+            "urlFilter": "||imgbox.com/*.gif"
+        }
+    },
+    {
+        "id": 3613,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "tvzota92.com",
+                "tvzota93.com",
+                "tvzota94.com",
+                "tvzota95.com",
+                "tvzota96.com",
+                "tvzota97.com",
+                "tvzota98.com",
+                "tvzota99.com",
+                "tvzota100.com",
+                "tvzota101.com",
+                "tvzota102.com"
+            ],
+            "regexFilter": "^https:\\/\\/tor[0-9]+\\.com\\/data\\/file\\/test\\/"
+        }
+    },
+    {
+        "id": 3614,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/18moa[0-9]+\\.com\\/data\\/file\\/main_top_banner\\/thumb-"
+        }
+    },
+    {
+        "id": 3615,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||topgirl.co/project/bm/js/nuevo.min.js"
+        }
+    },
+    {
+        "id": 3616,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||wwwimageup.live-009.com/other/wx_app_admin/"
+        }
+    },
+    {
+        "id": 3617,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/opss[0-9]+\\.com\\/img\\/[A-z]+\\.gif(\\?v=[0-9]+)?$"
+        }
+    },
+    {
+        "id": 3618,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "1004past.com"
+            ],
+            "urlFilter": "/thumb/kh/bn/*"
+        }
+    },
+    {
+        "id": 3619,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/jiok[0-9]+\\.net\\/img\\/"
+        }
+    },
+    {
+        "id": 3620,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "opworlds17.com",
+                "opworlds18.com",
+                "opworlds19.com",
+                "opworlds20.com",
+                "opworlds21.com",
+                "opworlds22.com",
+                "opworlds23.com",
+                "opworlds24.com",
+                "opworlds25.com"
+            ],
+            "urlFilter": "/data/apms/background/*"
+        }
+    },
+    {
+        "id": 3621,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "opworlds17.com",
+                "opworlds18.com",
+                "opworlds19.com",
+                "opworlds20.com",
+                "opworlds21.com",
+                "opworlds22.com",
+                "opworlds23.com",
+                "opworlds24.com",
+                "opworlds25.com"
+            ],
+            "urlFilter": "/data/editor/*"
+        }
+    },
+    {
+        "id": 3622,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "opworlds17.com",
+                "opworlds18.com",
+                "opworlds19.com",
+                "opworlds20.com",
+                "opworlds21.com",
+                "opworlds22.com",
+                "opworlds23.com",
+                "opworlds24.com",
+                "opworlds25.com"
+            ],
+            "urlFilter": "/data/file/primium/*"
+        }
+    },
+    {
+        "id": 3623,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "yt723.org",
+                "yt724.org",
+                "yt725.org",
+                "yt726.org",
+                "yt727.org",
+                "yt728.org",
+                "yt729.org",
+                "yt730.org",
+                "yt731.org",
+                "yt732.org",
+                "yt733.org"
+            ],
+            "regexFilter": "^https:\\/\\/yt[0-9]+\\.org\\/files\\/attach\\/banner_images\\/[0-9]+\\/([0-9-]+(x|X)[0-9]+|(%[A-Z0-9]+)+)\\."
+        }
+    },
+    {
+        "id": 3624,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/bookmoa[0-9]+\\.com\\/data\\/apms\\/background\\/"
+        }
+    },
+    {
+        "id": 3625,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||kormovie.com/img/*.gif|"
+        }
+    },
+    {
+        "id": 3626,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/jusoyo[0-9]+\\.com\\/data\\/apms\\/background\\/"
+        }
+    },
+    {
+        "id": 3627,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/jusoyo[0-9]+\\.net\\/data\\/apms\\/background\\/"
+        }
+    },
+    {
+        "id": 3628,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/jusoyo[0-9]+\\.com\\/.+\\.webp$"
+        }
+    },
+    {
+        "id": 3629,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/jusoyo[0-9]+\\.net\\/.+\\.webp$"
+        }
+    },
+    {
+        "id": 3630,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/yadong[0-9]+\\.net\\/Uploads\\/images\\/[0-9]{4}-[0-9]{2}-[0-9]{2}"
+        }
+    },
+    {
+        "id": 3631,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "yasyadong.com"
+            ],
+            "urlFilter": "||blogger.googleusercontent.com^"
+        }
+    },
+    {
+        "id": 3632,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "yasyadong.com"
+            ],
+            "urlFilter": "||i.imgur.com^"
+        }
+    },
+    {
+        "id": 3633,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "fxfx219.com",
+                "fxfx220.com",
+                "fxfx221.com",
+                "fxfx222.com",
+                "fxfx223.com",
+                "fxfx224.com",
+                "fxfx225.com",
+                "fxfx226.com",
+                "fxfx227.com",
+                "fxfx228.com",
+                "fxfx229.com",
+                "fxfx230.com",
+                "fxfx231.com",
+                "fxfx232.com",
+                "fxfx233.com",
+                "fxfx234.com",
+                "fxfx235.com",
+                "fxfx236.com",
+                "fxfx237.com"
+            ],
+            "regexFilter": "^https:\\/\\/iabn[0-9]+\\.net\\/"
+        }
+    },
+    {
+        "id": 3634,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/mkmk[0-9]+\\.com\\/img\\/[a-z]+[0-9]+x[0-9]+"
+        }
+    },
+    {
+        "id": 3635,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/mkmk[0-9]+\\.com\\/img\\/[a-z0-9_-]+\\.gif$"
+        }
+    },
+    {
+        "id": 3636,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||cokcok.*/wp-json/jt-bad-ux-popup/list/"
+        }
+    },
+    {
+        "id": 3637,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||cokcok.*/wp-admin/admin-ajax.php?action=jt_bad_ux_popup"
+        }
+    },
+    {
+        "id": 3638,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||cokcok.*/wp-admin/admin-ajax.php?action=load_random_banners"
+        }
+    },
+    {
+        "id": 3639,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||jmana.*/resouce/img/adimg/"
+        }
+    },
+    {
+        "id": 3640,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/ww[0-9]+\\.torrentdin[0-9]+\\.com\\/data\\/editor\\/[0-9]+\\/[a-z0-9]+_[a-z0-9]+_[a-z0-9]+\\."
+        }
+    },
+    {
+        "id": 3641,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/ww[0-9]+\\.torrentdin[0-9]+\\.com\\/data\\/file\\/ad\\/"
+        }
+    },
+    {
+        "id": 3642,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "hoohootv29.xyz",
+                "hoohootv30.xyz",
+                "hoohootv31.xyz",
+                "hoohootv32.xyz",
+                "hoohootv33.xyz",
+                "hoohootv34.xyz",
+                "hoohootv35.xyz",
+                "hoohootv36.xyz",
+                "hoohootv37.xyz",
+                "hoohootv38.xyz",
+                "hoohootv39.xyz",
+                "hoohootv40.xyz",
+                "hoohootv41.xyz",
+                "hoohootv42.xyz"
+            ],
+            "urlFilter": "||hoohootv*.*/static/bnner/"
+        }
+    },
+    {
+        "id": 3643,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "torrentqq294.com",
+                "torrentqq295.com",
+                "torrentqq296.com",
+                "torrentqq297.com",
+                "torrentqq298.com",
+                "torrentqq299.com",
+                "torrentqq300.com",
+                "torrentqq301.com",
+                "torrentqq302.com",
+                "torrentqq303.com",
+                "torrentqq304.com",
+                "torrentqq305.com",
+                "torrentqq306.com",
+                "torrentqq307.com",
+                "torrentqq308.com"
+            ],
+            "urlFilter": "||i.imgur.com^"
+        }
+    },
+    {
+        "id": 3644,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "torrenttip108.com",
+                "torrenttip109.com",
+                "torrenttip110.com",
+                "torrenttip111.com",
+                "torrenttip112.com",
+                "torrenttip113.com",
+                "torrenttip114.com",
+                "torrenttip115.com",
+                "torrenttip116.com",
+                "torrenttip117.com",
+                "torrenttip118.com",
+                "torrenttip119.com",
+                "torrenttip120.com",
+                "torrenttip121.com"
+            ],
+            "urlFilter": "||filesbest.xyz/uploadfile/images/*.gif"
+        }
+    },
+    {
+        "id": 3645,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "torrentwhy101.xyz",
+                "torrentwhy102.xyz",
+                "torrentwhy103.xyz",
+                "torrentwhy104.xyz",
+                "torrentwhy105.xyz",
+                "torrentwhy106.xyz",
+                "torrentwhy107.xyz",
+                "torrentwhy108.xyz",
+                "torrentwhy109.xyz",
+                "torrentwhy110.xyz",
+                "torrentwhy111.xyz",
+                "torrentwhy112.xyz"
+            ],
+            "urlFilter": "||i.imgur.com^"
+        }
+    },
+    {
+        "id": 3646,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "tvzota92.com",
+                "tvzota93.com",
+                "tvzota94.com",
+                "tvzota95.com",
+                "tvzota96.com",
+                "tvzota97.com",
+                "tvzota98.com",
+                "tvzota99.com",
+                "tvzota100.com",
+                "tvzota101.com",
+                "tvzota102.com"
+            ],
+            "urlFilter": "||imgbox.com^"
+        }
+    },
+    {
+        "id": 3647,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "yatv.net",
+                "yadongtube.net",
+                "yadongkorea.red",
+                "yadongwang.org",
+                "yako.red"
+            ],
+            "urlFilter": "||jusotop.com/b/"
+        }
+    },
+    {
+        "id": 3648,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "tkr296.com",
+                "tkr297.com",
+                "tkr298.com",
+                "tkr299.com",
+                "tkr300.com",
+                "tkr301.com",
+                "tkr302.com",
+                "tkr303.com",
+                "tkr304.com",
+                "tkr305.com",
+                "tkr306.com",
+                "tkr307.com"
+            ],
+            "urlFilter": "||imgsuperpower.com^"
+        }
+    },
+    {
+        "id": 3649,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "tkr296.com",
+                "tkr297.com",
+                "tkr298.com",
+                "tkr299.com",
+                "tkr300.com",
+                "tkr301.com",
+                "tkr302.com",
+                "tkr303.com",
+                "tkr304.com",
+                "tkr305.com",
+                "tkr306.com",
+                "tkr307.com"
+            ],
+            "urlFilter": "||blogger.googleusercontent.com/img/"
+        }
+    },
+    {
+        "id": 3650,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "tkr296.com",
+                "tkr297.com",
+                "tkr298.com",
+                "tkr299.com",
+                "tkr300.com",
+                "tkr301.com",
+                "tkr302.com",
+                "tkr303.com",
+                "tkr304.com",
+                "tkr305.com",
+                "tkr306.com",
+                "tkr307.com"
+            ],
+            "urlFilter": "||static.springbuilder.site/fs/userFiles-v2/"
+        }
+    },
+    {
+        "id": 3651,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "wftoon117.com",
+                "wftoon118.com",
+                "wftoon119.com",
+                "wftoon120.com",
+                "wftoon121.com",
+                "wftoon122.com",
+                "wftoon123.com",
+                "wftoon124.com",
+                "wftoon125.com",
+                "wftoon126.com",
+                "wftoon127.com",
+                "wftoon128.com",
+                "wftoon129.com",
+                "wftoon130.com",
+                "wftoon131.com"
+            ],
+            "regexFilter": "^https:\\/\\/imgcloud[0-9]+\\.net\\/"
+        }
+    },
+    {
+        "id": 3652,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "wtwt226.com",
+                "wtwt227.com",
+                "wtwt228.com",
+                "wtwt229.com",
+                "wtwt230.com",
+                "wtwt231.com",
+                "wtwt232.com",
+                "wtwt233.com",
+                "wtwt234.com",
+                "wtwt235.com",
+                "wtwt236.com",
+                "wtwt237.com",
+                "wtwt238.com",
+                "wtwt239.com",
+                "wtwt240.com",
+                "wtwt241.com",
+                "wtwt242.com",
+                "wtwt243.com",
+                "wtwt244.com"
+            ],
+            "regexFilter": "^https:\\/\\/imgcloud[0-9]+\\.net\\/"
+        }
+    },
+    {
+        "id": 3653,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "torrentgram63.com",
+                "torrentgram64.com",
+                "torrentgram65.com",
+                "torrentgram66.com",
+                "torrentgram67.com",
+                "torrentgram68.com",
+                "torrentgram69.com",
+                "torrentgram70.com",
+                "torrentgram71.com",
+                "torrentgram72.com",
+                "torrentgram73.com",
+                "torrentgram74.com",
+                "torrentgram75.com",
+                "torrentgram76.com",
+                "torrentgram77.com",
+                "torrentgram78.com"
+            ],
+            "urlFilter": "||i.imgur.com^"
+        }
+    },
+    {
+        "id": 3654,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "ktxtorrent108.com",
+                "ktxtorrent109.com",
+                "ktxtorrent110.com",
+                "ktxtorrent111.com",
+                "ktxtorrent112.com",
+                "ktxtorrent113.com",
+                "ktxtorrent114.com",
+                "ktxtorrent115.com",
+                "ktxtorrent116.com",
+                "ktxtorrent117.com",
+                "ktxtorrent118.com",
+                "ktxtorrent119.com",
+                "ktxtorrent120.com",
+                "ktxtorrent121.com",
+                "ktxtorrent122.com"
+            ],
+            "urlFilter": "||imgbox.com^"
+        }
+    },
+    {
+        "id": 3655,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "ktxtorrent108.com",
+                "ktxtorrent109.com",
+                "ktxtorrent110.com",
+                "ktxtorrent111.com",
+                "ktxtorrent112.com",
+                "ktxtorrent113.com",
+                "ktxtorrent114.com",
+                "ktxtorrent115.com",
+                "ktxtorrent116.com",
+                "ktxtorrent117.com",
+                "ktxtorrent118.com",
+                "ktxtorrent119.com",
+                "ktxtorrent120.com",
+                "ktxtorrent121.com",
+                "ktxtorrent122.com"
+            ],
+            "urlFilter": "||static.filesbest.xyz^"
+        }
+    },
+    {
+        "id": 3656,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "torrentrj134.com",
+                "torrentrj135.com",
+                "torrentrj136.com",
+                "torrentrj137.com",
+                "torrentrj138.com",
+                "torrentrj139.com",
+                "torrentrj140.com",
+                "torrentrj141.com",
+                "torrentrj142.com",
+                "torrentrj143.com",
+                "torrentrj144.com",
+                "torrentrj145.com",
+                "torrentrj146.com",
+                "torrentrj147.com",
+                "torrentrj148.com",
+                "torrentrj149.com"
+            ],
+            "urlFilter": "||filesbest.xyz^"
+        }
+    },
+    {
+        "id": 3657,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "bobaelink58.xyz",
+                "bobaelink59.xyz",
+                "bobaelink60.xyz",
+                "bobaelink61.xyz",
+                "bobaelink62.xyz",
+                "bobaelink63.xyz",
+                "bobaelink64.xyz",
+                "bobaelink65.xyz",
+                "bobaelink66.xyz",
+                "bobaelink67.xyz",
+                "bobaelink68.xyz",
+                "bobaelink69.xyz"
+            ],
+            "urlFilter": "||i.imgur.com^"
+        }
+    },
+    {
+        "id": 3658,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "hdhd315.net",
+                "hdhd316.net",
+                "hdhd317.net",
+                "hdhd318.net",
+                "hdhd319.net",
+                "hdhd320.net",
+                "hdhd321.net",
+                "hdhd322.net",
+                "hdhd323.net",
+                "hdhd324.net",
+                "hdhd325.net",
+                "hdhd326.net",
+                "hdhd327.net",
+                "hdhd328.net",
+                "hdhd329.net"
+            ],
+            "urlFilter": "||imgsuperpower.com^"
+        }
+    },
+    {
+        "id": 3659,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "hdhd315.net",
+                "hdhd316.net",
+                "hdhd317.net",
+                "hdhd318.net",
+                "hdhd319.net",
+                "hdhd320.net",
+                "hdhd321.net",
+                "hdhd322.net",
+                "hdhd323.net",
+                "hdhd324.net",
+                "hdhd325.net",
+                "hdhd326.net",
+                "hdhd327.net",
+                "hdhd328.net",
+                "hdhd329.net"
+            ],
+            "urlFilter": "||blogger.googleusercontent.com^"
+        }
+    },
+    {
+        "id": 3660,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "wfwf308.com",
+                "wfwf309.com",
+                "wfwf310.com",
+                "wfwf311.com",
+                "wfwf312.com",
+                "wfwf313.com",
+                "wfwf314.com",
+                "wfwf315.com",
+                "wfwf316.com",
+                "wfwf317.com",
+                "wfwf318.com",
+                "wfwf319.com",
+                "wfwf320.com"
+            ],
+            "regexFilter": "^https:\\/\\/iabn[0-9]+\\.net\\/"
+        }
+    },
+    {
+        "id": 3824,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "||cdn.kbmaeil.com/bannerpop/uploads/js/976.js"
+        }
+    },
+    {
+        "id": 3825,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "||cdn.kbmaeil.com/bannerpop/uploads/image/16224295341851316158.png"
+        }
+    },
+    {
+        "id": 3826,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "||whosaeng.com/data/whosaeng_com/banner/2024010357483891"
+        }
+    },
+    {
+        "id": 3827,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "weverse.io"
+            ],
+            "resourceTypes": [
+                "script"
+            ],
+            "urlFilter": "||ssl.pstatic.net/tveta/libs/ssp-video/prod/ssp.web.sdk_"
+        }
+    },
+    {
+        "id": 3828,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "||tinnews.co.kr/data/tinnews_co_kr/banner/2020040642392902"
+        }
+    },
+    {
+        "id": 3829,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "||tinnews.co.kr/data/tinnews_co_kr/banner/favicon.ico"
+        }
+    },
+    {
+        "id": 3830,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "||m.shop.interpark.com/_static/js/plugin/fastclick.min.js"
+        }
+    },
+    {
+        "id": 3831,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/m[0-9]+\\.kotbc\\.com\\/img\\/[a-z0-9_/]+\\.gif$"
+        }
+    },
+    {
+        "id": 3832,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "m.sports.naver.com"
+            ],
+            "urlFilter": "||api-gw.sports.naver.com/cms/contents/adContents/BRAND_STORY"
+        }
+    },
+    {
+        "id": 3869,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "vivatv.cc",
                 "svrforum.com",
                 "singingdalong.blogspot.com",
                 "goodgag.net",
@@ -13700,6 +14330,51 @@
                 "koreaminecraft.net"
             ],
             "urlFilter": "||fundingchoicesmessages.google.com^"
+        }
+    },
+    {
+        "id": 3872,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "t.hi098123.com"
+            ],
+            "resourceTypes": [
+                "xmlhttprequest"
+            ],
+            "urlFilter": "||pagead2.googlesyndication.com/getconfig/"
+        }
+    },
+    {
+        "id": 3879,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "sbs.co.kr"
+            ],
+            "resourceTypes": [
+                "script"
+            ],
+            "urlFilter": "||imasdk.googleapis.com/js/sdkloader/ima3.js"
+        }
+    },
+    {
+        "id": 3880,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "tv.nate.com"
+            ],
+            "urlFilter": "||adimg.nate.com/img/*?n="
         }
     }
 ]
