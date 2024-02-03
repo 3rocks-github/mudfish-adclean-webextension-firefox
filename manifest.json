@@ -3,7 +3,7 @@
     "name": "__MSG_i18n_manifest_name__",
     "description": "__MSG_i18n_manifiest_description__",
     "default_locale": "ko",
-    "version": "0.2.5",
+    "version": "0.2.6",
     "action": {
         "default_icon": "/images/default-icon.png",
         "default_popup": "/html/popup.html"
